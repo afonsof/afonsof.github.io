@@ -1,0 +1,77 @@
+---
+layout: post
+title: EvolveSharp
+date: 2015-05-25 17:58:27.000000000 -03:00
+type: post
+published: true
+status: publish
+categories:
+- Projects
+tags: []
+meta:
+  _edit_last: '1'
+  _thumbnail_id: '34'
+author:
+  login: afonsof
+  email: afonso.franca@gmail.com
+  display_name: admin
+  first_name: ''
+  last_name: ''
+---
+<p>Genetic algorithm framework<br />
+<!--more--><br />
+<strong><a href="https://github.com/afonsof/EvolveSharp">View github repositoty</a></strong></p>
+<h2>Getting Started</h2>
+<h4>1. Setting Up</h4>
+<p>Create a Console Application and install EvoleSharp using Nuget:</p>
+<pre class="language-powershell"><code>PM&gt; Install-Package EvolveSharp</code>
+</pre>
+<h4>2. Create a fitness function</h4>
+<p>In this simple example we are creating a fitness function to sum all genes of an individual</p>
+<pre class="language-clike"><code>public class ExampleFitnessFunction : IFitnessFunction
+{
+    public double Evaluate(IIndividual individual)
+    {
+        var sum = 0.0;
+        for (var i = 0; i &lt; individual.Length; i++)
+        {
+            sum += individual[i];
+        }
+        return sum;
+    }
+}</code>
+</pre>
+<h4>3. Instantiate the GeneticAlgorithm class and call the Evolve method</h4>
+<p>You can set 3 parameters:</p>
+<ol>
+<li>Population count: How many individuals each population will have</li>
+<li>Gene count: How many genes each individual will have</li>
+<li>Generation count: How many generations will occour</li>
+</ol>
+<pre class="language-clike"><code>class Program
+{
+    static void Main(string[] args)
+    {
+        const int populationCount = 100;
+        const int generationCount = 10000;
+        const int geneCount = 10;
+
+        var ga = new GeneticAlgorithm(populationCount, geneCount, new ExampleFitnessFunction());
+        ga.Evolve(generationCount);
+    }
+}</code>
+</pre>
+<h4>Other information</h4>
+<ol>
+<li>You can create your own mutation, selection, crossover and initializer class. You just need to inherit the respective interface.</li>
+<li>You can set the <code>Mutator</code>, <code>CrossoverMethod</code>, <code>Selector</code> and <code>Initializer</code> after instantiate the <code>GeneticAlgorithm</code> class.</li>
+<li>You can create and set your own reporter in <code>GeneticAlgorithm</code> class.</li>
+</ol>
+<h2>Sample</h2>
+<p>Clone EvolveSharp and try the Travelling salesman problem sample</p>
+<h2>Contributing</h2>
+<p>Please use the issue tracker and pull requests.</p>
+<h2>License</h2>
+<p>Copyright (c) 2014 Afonso França<br />
+Licensed under the MIT license.</p>
+<p><img class="aligncenter wp-image-31 size-medium" src="{{ site.baseurl }}/assets/logo-300x284.png" alt="logo" width="300" height="284" /></p>
