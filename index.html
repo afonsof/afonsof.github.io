@@ -16,36 +16,46 @@ layout: default
                     <p>{{ site.description }}</p>
                 </div>
                 <ul class="list-inline">
+                    {% if site.github_username %}
                     <li>
-                        <a target="_blank" href="http://github.com/afonsof"
+                        <a target="_blank" href="http://github.com/{{ site.github_username }}"
                            class="btn-social">
                             <i class="fa fa-fw fa-github"></i>
                         </a>
                     </li>
+                    {% endif %}
+                    {% if site.github_username %}
                     <li>
-                        <a target="_blank" href="http://twitter.com/afonsof"
+                        <a target="_blank" href="http://twitter.com/{{ site.twitter_username }}"
                            class="btn-social">
                             <i class="fa fa-fw fa-twitter"></i>
                         </a>
                     </li>
+                    {% endif %}
+                    {% if site.linkedin_username %}
                     <li>
-                        <a target="_blank" href="https://linkedin.com/in/afonsof"
+                        <a target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}"
                            class="btn-social">
                             <i class="fa fa-fw fa-linkedin"></i>
                         </a>
                     </li>
+                    {% endif %}
+                    {% if site.google_plus_username %}
                     <li>
-                        <a target="_blank" href="http://plus.google.com/+AfonsoF"
+                        <a target="_blank" href="http://plus.google.com/+{{ site.google_plus_username }}"
                            class="btn-social">
                             <i class="fa fa-fw fa-google-plus"></i>
                         </a>
                     </li>
+                    {% endif %}
+                    {% if site.email %}
                     <li>
-                        <a target="_blank" href="mailto:afonso.franca@gmail.com"
+                        <a target="_blank" href="mailto:{{ site.email }}"
                            class="btn-social">
                             <i class="fa fa-fw fa-envelope-o"></i>
                         </a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>

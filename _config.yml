@@ -7,16 +7,19 @@
 
 # Site settings
 title: Afonso F
-email: your-email@domain.com
 author: Afonso França de Oliveira
-
 description: Software Engineer – Technical Team Lead – Sometimes illustrator
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: ""
+url: "http://afonsof.com"
+
+email: me@afonsof.com
+twitter_username: afonsof
+github_username: afonsof
+linkedin_username: afonsof
+google_plus_username: afonsof
 google_analytics_id: UA-54197665-1
+
 excerpt_separator: <!--more-->
 permalink: /:categories/:title/
 
