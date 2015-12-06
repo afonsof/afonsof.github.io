@@ -8,13 +8,12 @@ layout: default
             <article itemscope itemtype="http://schema.org/BlogPosting">
 
                 <h1 class="entry-title" itemprop="name headline">{{ page.title }}</h1>
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d,
-                    %Y" }}
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}
                 </time>
 
 
                 {% if page.image %}
-                <div class="post-thumbnail" style="background-image:url('{{site.baseurl}}{{ page.image }}'}}) !important"></div>
+                <div class="post-thumbnail" style="background-image:url('{{site.baseurl}}{{ page.image }}') !important"></div>
                 {% endif %}
 
                 <div class="entry-content"  itemprop="articleBody">
