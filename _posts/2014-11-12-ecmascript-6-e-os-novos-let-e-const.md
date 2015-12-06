@@ -35,7 +35,7 @@ console.log(value); // imprime ok mas não deveria
 
 Na saída da execução deste código teríamos:
 
-{% highlight shell %}
+{% highlight bash %}
 ok
 ok
 {% endhighlight %}
