@@ -7,7 +7,7 @@ published: true
 status: publish
 image: /assets/images/posts/webdevsummit.jpg
 categories:
-- Projects
+- projects
 ---
 Co-creator and Presenter
 <!--more-->

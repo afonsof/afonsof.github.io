@@ -5,7 +5,7 @@ date: 2015-05-25 17:58:27.000000000 -03:00
 type: post
 image: /assets/images/posts/evolvesharp.png
 categories:
-- Projects
+- projects
 ---
 Genetic algorithm framework  
 <!--more-->

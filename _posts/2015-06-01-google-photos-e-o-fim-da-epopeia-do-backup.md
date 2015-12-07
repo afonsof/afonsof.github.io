@@ -6,7 +6,7 @@ type: post
 published: true
 image: http://afonsof.com/wp-content/uploads/2015/06/google-photos.jpg
 categories:
-- Blog
+- blog
 ---
 Desde de que era criança gosto de organizar coisas. Me lembro de ter um caderno não na época dos 8-bit em que registrava
 todos os jogos de vídeo game que jogava.

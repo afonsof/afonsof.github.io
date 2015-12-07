@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- Blog
+- blog
 ---
 
 O ECMAScript 6 vem chegando e existem diversas novas modificações que tornarão a linguagem Javascript mais robusta
