@@ -1,10 +1,8 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
 
 
-/*
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -48,36 +46,9 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
         "syntax-highlighting"
-;*/
+;
 
-
-/*
-Theme Name: Afonso F 2015
-Theme URI: https://wordpress.org/themes/twentyfifteen/
-Author: Afonso F
-Author URI: http://afonsof.com/
-Description: Afonso F Theme 2015
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: grey, responsive
-Text Domain: afonsof
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
-/*!
- * Bootstrap v3.3.4 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=e8e5a6f4f5964cd4221c)
- * Config saved to config.json and https://gist.github.com/e8e5a6f4f5964cd4221c
- */
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1543,13 +1514,14 @@ ul {
   margin: 0;
   padding: 0;
 }
-code {
+/* code {
   padding: 2px 4px;
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 4px;
-}
+} */
+
 .more-link {
   display: block;
   color: #b3c0c7;
@@ -1655,4 +1627,3 @@ hr:after {
     display: none;
   }
 }
-

@@ -18,24 +18,27 @@ Genetic algorithm framework
 
 Create a Console Application and install EvoleSharp using Nuget:
 
-    PM> Install-Package EvolveSharp
+{% highlight bash %}
+PM> Install-Package EvolveSharp
+{% endhighlight %}
 
 #### 2\. Create a fitness function
 
 In this simple example we are creating a fitness function to sum all genes of an individual
-
-    public class ExampleFitnessFunction : IFitnessFunction
+{% highlight csharp %}
+public class ExampleFitnessFunction : IFitnessFunction
+{
+    public double Evaluate(IIndividual individual)
     {
-        public double Evaluate(IIndividual individual)
+        var sum = 0.0;
+        for (var i = 0; i < individual.Length; i++)
         {
-            var sum = 0.0;
-            for (var i = 0; i < individual.Length; i++)
-            {
-                sum += individual[i];
-            }
-            return sum;
+            sum += individual[i];
         }
+        return sum;
     }
+}
+{% endhighlight %}
 
 #### 3\. Instantiate the GeneticAlgorithm class and call the Evolve method
 
@@ -45,18 +48,20 @@ You can set 3 parameters:
 2.  Gene count: How many genes each individual will have
 3.  Generation count: How many generations will occour
 
-    class Program
+{% highlight csharp %}
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            const int populationCount = 100;
-            const int generationCount = 10000;
-            const int geneCount = 10;
+        const int populationCount = 100;
+        const int generationCount = 10000;
+        const int geneCount = 10;
 
-            var ga = new GeneticAlgorithm(populationCount, geneCount, new ExampleFitnessFunction());
-            ga.Evolve(generationCount);
-        }
+        var ga = new GeneticAlgorithm(populationCount, geneCount, new ExampleFitnessFunction());
+        ga.Evolve(generationCount);
     }
+}
+{% endhighlight %}
 
 #### Other information
 
@@ -76,5 +81,3 @@ Please use the issue tracker and pull requests.
 
 Copyright (c) 2014 Afonso França  
 Licensed under the MIT license.
-
-![logo]({{ site.baseurl }}/assets/logo-300x284.png)
