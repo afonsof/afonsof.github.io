@@ -3,7 +3,7 @@ layout: post
 title: jenkins-material-theme
 date: 2015-12-07 12:56:00 -03:00
 type: post
-image: /assets/images/posts/jenkins-material-theme.png
+image: https://raw.githubusercontent.com/afonsof/jenkins-material-theme/master/images/screen1.png
 categories:
 - projects
 tags: []
