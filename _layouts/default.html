@@ -2,15 +2,11 @@
 <html>
 {% include head.html %}
 <body id="page-top">
-  {% include header.html %}
+{% include nav.html %}
 
-  {% include projects.html %}
-  {% include work.html %}
-  {% include blog.html %}
+{{ content }}
 
-  {% include footer.html %}
-  {% include modals.html %}
-  {% include js.html %}
+{% include js.html %}
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

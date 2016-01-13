@@ -1,69 +1,23 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
 
-            <div class="navbar-header page-scroll">
+            <img src="img/team/profile.svg" class="img-responsive img-circle" alt=""
+                 style="margin: 0 auto 40px; width:220px">
 
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="navbar-brand page-scroll"
-                   href="{{ site.baseurl }}/#page-top"
-                   title="{{ site.title }}">
-                    <img src="img/team/logo.svg" alt="{{site.title}} Logo" />
-                    {{ site.title }}
-                </a>
+            <div class="intro-heading">
+                Afonso F
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#work">Work Experience</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#blog">Blog</a>
-                    </li>
-                    {% for my_page in site.pages %}
-                    {% if my_page.title %}
-                    <li class="nav-item"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            <div class="intro-lead-in">Full-Stack Developer and Technical Team Lead</div>
+            <ul class="list-inline social-buttons">
+                {% for network in site.social %}
+                <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                
-                <img src="img/team/profile.svg" class="img-responsive img-circle" alt="" style="margin: 0 auto 40px; width:220px">
-                
-                <div class="intro-heading">
-                Afonso F</div>
-                
-                <div class="intro-lead-in">Full-Stack Developer and Technical Team Lead</div>
-                <ul class="list-inline social-buttons">
-                    {% for network in site.social %}
-                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </header>
+    </div>
+</header>
 

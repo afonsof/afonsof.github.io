@@ -1,13 +1,21 @@
 ---
-layout: post
+layout: project
 title: BayesSharp
+subtitle: Simple naive bayes text classifier
 date: 2015-05-25 17:57:47.000000000 -03:00
 type: post
-image: /assets/images/posts/bayessharp.png
+
+buttons:
+- url: https://github.com/afonsof/BayesSharp
+  icon: star
+  text: Star
+- url: https://github.com/afonsof/BayesSharp/fork
+  icon: code-fork
+  text: Fork
+
+img: bayessharp.png
+thumbnail: bayessharp.png
+
 categories:
 - projects
-tags: []
 ---
-Simple naive bayes text classifier  
-<!--more-->
-**[View github repositoty](https://github.com/afonsof/BayesSharp)**
