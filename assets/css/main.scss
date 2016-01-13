@@ -2,7 +2,7 @@
 ---
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size: 16px;
 $base-font-weight: 400;
 $small-font-size: $base-font-size * 0.875;
@@ -22,14 +22,14 @@ $grey-color-dark: darken($grey-color, 25%);
 $content-width: 800px;
 
 $on-palm: 600px;
-$on-laptop: 800px;
+$on-laptop: 800px;*/
 
 $primary: #37474F;
 $secondary: #78909C;
 $secondary-dark: #333;
 
 @import "font-awesome/css/font-awesome.min.css";
-@import "../_sass/bootstrap.min";
+@import "bootstrap.min";
 
 body {
   overflow-x: hidden;
