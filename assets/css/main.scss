@@ -63,7 +63,8 @@ a.active {
 }
 
 a {
-  color: $primary;
+  color: $secondary;
+  text-decoration: underline;
 }
 
 a:hover,
@@ -267,6 +268,10 @@ fieldset[disabled] .btn-xl.active {
   background-color: $secondary;
 }
 
+.navbar a{
+  text-decoration: none;
+}
+
 @media(min-width: 768px) {
   .navbar-default {
     padding: 25px 0;
@@ -304,6 +309,8 @@ fieldset[disabled] .btn-xl.active {
   }
 
 }
+
+
 
 header {
   text-align: center;
@@ -382,7 +389,7 @@ section h3.section-subheading {
 
 @media(min-width: 768px) {
   section {
-    padding:120px 0;
+    padding: 120px 0;
   }
 }
 
@@ -816,12 +823,14 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
   text-shadow: none;
-  background: $primary;
+  background: lighten($secondary,50%);
+  color: #FFF;
 }
 
 ::selection {
   text-shadow: none;
-  background: $primary;
+  background: lighten($secondary,20%);
+  color: #FFF;
 }
 
 img::selection {
@@ -833,23 +842,66 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: $primary;
+  -webkit-tap-highlight-color: lighten($secondary,20%);
 }
 
-#blog p{
+#blog p {
   font-size: 22px;
 }
 
-.entry-content p{
-  font-size: 22px;
-  line-height: 32px;
+.entry-content {
+  p, li {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  p{
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+
+  h3, h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 }
 
-.entry-content h4{
-  font-size: 25px;
-  margin-top: 30px;
+article{
+  margin-bottom: 40px;
+
+  time{
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 20px;
+    font-style: italic;
+    display: block;
+  }
 }
 
-.entry-content h3, .entry-content h2{
-  margin-top: 40px;
+#disqus_thread{
+  margin-bottom: 40px;
+}
+
+h3 a{
+  text-decoration: none;
+  color: $primary;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.more-link{
+  font-size: 18px;
 }
