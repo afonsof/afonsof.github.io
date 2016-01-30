@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Como eu aprendi inglês
+title: Como eu aprendi Inglês
 date: 2016-01-30 00:00:00.000000000 -03:00
 type: post
 published: true
 status: publish
+img: como-aprendi-ingles.png
 categories:
 - blog
 ---
@@ -50,7 +51,7 @@ Em 2015 aconteceram duas coisas que facilitaram bastante a minha jornada: arrume
 
 Desde que tomei a decisão de que queria sair do Brasil, comecei a mandar currículos e me relacionar com empresas, gringas. Depois de 2 anos finalmente aconteceu. Após uma entrevista bem básica fui contratado para trabalhar remoto numa Startup de São Francisco. Então desde Julho de 2015 meu contato com inglês é diário e diversificado. Preciso escrever, falar, ler e escutar em inglês o tempo todo.
 
-Em outubro fui para São Francisco conhecer os donos da Startup e fazer um curso de aperfeiçoamento na [Embassy English][embassy]. Nestes 28 dias que fiquei na cidade pude me adaptar não só ao idioma, mas também à cultura americana, aprendendo gírias, maneirismos e sotaques. Me lembro de escutar vários grunhidos inaudíveis no metro no primeiro dia na cidade e de entender claramente estes grunhidos no dia que estava voltando para o Brasil.
+Em outubro fui para São Francisco conhecer os donos da Startup e fazer um curso de aperfeiçoamento na [Embassy English][embassy]. Nestes 28 dias que fiquei na cidade pude me adaptar não só ao idioma, mas também à cultura americana, aprendendo gírias, maneirismos e sotaques. Me lembro de escutar vários grunhidos inaudíveis no metrô no primeiro dia na cidade e de entender claramente estes grunhidos no dia que estava voltando para o Brasil.
 
 ### Aprendizado contínuo
 

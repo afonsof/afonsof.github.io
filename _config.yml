@@ -25,3 +25,4 @@ google_analytics_id: UA-54197665-1
 markdown: kramdown
 permalink: /:categories/:title/
 excerpt_separator: <!--more-->
+url: http://afonsof.com
