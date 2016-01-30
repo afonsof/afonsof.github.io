@@ -13,7 +13,7 @@ categories:
 Neste post vou comentar e descrever alguns detalhes de como está sendo minha trajetória no aprendizado da língua inglesa.
 <!--more-->
 
-Antes de tudo, gostaria de deixar o [link][dev-na-estrada] do podcast DevNaEstrada que participei no qual o assunto foi exatamente esse: [Inglês pra que][dev-na-estrada]? Nele eu e outros convidados descrevemos um pouco sobre a nossa trajetória e damos algumas dicas.
+Antes de tudo, gostaria de deixar o [link][dev-na-estrada] do podcast DevNaEstrada que participei, no qual o assunto foi exatamente esse: [Inglês pra que][dev-na-estrada]? Nele eu e outros convidados descrevemos um pouco sobre a nossa trajetória e damos algumas dicas.
 
 ### Primeiros passos
 
@@ -23,7 +23,7 @@ Na mesma época eu comecei com os videogames que nos primeiros jogos já me enca
 
 ### Aprendizado básico
 
-Já no final dos anos 90, meus pais economizaram um tanto para comprar nosso primeiro computador e pude finalmente abrir os horizontes e consumir mais conteúdo na língua da rainha. Foi quando descobri duas coisas magníficas, a programação e os emuladores. Os dois me fizeram passar madrugadas em claro e imergir um pouco mais no mundo do inglês. Descobri também que era possível hackear e traduzir os jogos de emulador de inglês para português. Daí comecei a fazer parte de algumas comunidades de tradução que existiam na Internet. Lá eu exercitava os meus conhecimentos de programação e inglês, nessa época cometi um grande erro: Achar que sabia demais.
+Já no final dos anos 90, meus pais economizaram um tanto para comprar nosso primeiro computador e pude finalmente abrir os horizontes e consumir mais conteúdo na língua da rainha. Foi quando descobri duas coisas magníficas, a programação e os emuladores. Os dois me fizeram passar madrugadas em claro e imergir um pouco mais no mundo do inglês. Descobri também que era possível hackear e traduzir os jogos de emulador de inglês para português. Daí comecei a fazer parte de algumas comunidades de tradução que existiam na Internet. Lá eu exercitava os meus conhecimentos de programação e inglês. Nessa época cometi um grande erro: Achar que sabia demais.
 
 Em meados de 2006 já trabalhando com TI, eu conseguia entender um texto técnico (não graças ao inglês técnico da faculdade hahaha) e achava que eu já era "bom em inglês", não evolui e o tempo foi passando. Em 2008 alguns amigos estavam entrando no [Brasas][brasas] e me chamaram para entrar com eles pois teria um desconto para grupos. Hesitei um pouco no começo mas me convenci quando fiz a prova de nivelamento e descobri que não sabia praticamente nada. Neste curso os níveis iam de 1 a 10 e fui classificado como Nível 2.
 
@@ -55,7 +55,7 @@ Em outubro fui para São Francisco conhecer os donos da Startup e fazer um curso
 
 ### Aprendizado contínuo
 
-Agora o sonho agora é real. No próximo dia 7 de maio eu e minha esposa nos mudamos para o Canadá. Depois de muito tentar, estudar e economizar, finalmente estamos indo rumo a América do Norte cientes de que o aprendizado está só começando e que agora chegou a parte mais difícil. Contudo estamos felizes e satisfeitos com a jornada.
+Agora o sonho agora é real. No próximo dia 7 de maio eu e minha esposa vamos nos mudar para o Canadá. Depois de muito tentar, estudar e economizar, finalmente estamos indo rumo a América do Norte cientes de que o aprendizado está só começando e que agora chegou a parte mais difícil. Contudo estamos felizes e satisfeitos com a jornada.
 
 Não desista, aprender inglês não é fácil. Alguém já me falou que aprender idiomas é como fazer musculação e não um dom. Então vá em frente, se exercite todos os dias e se prepare para o mundo!
 
