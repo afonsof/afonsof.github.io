@@ -13,7 +13,7 @@ categories:
 Neste post vou comentar e descrever alguns detalhes de como está sendo minha trajetória no aprendizado da língua inglesa.
 <!--more-->
 
-Antes de tudo, gostaria de deixar o [link][dev-na-estrada] do podcast DevNaEstrada que participei, no qual o assunto foi exatamente esse: [Inglês pra que][dev-na-estrada]? Nele eu e outros convidados descrevemos um pouco sobre a nossa trajetória e damos algumas dicas.
+Antes de tudo, gostaria de deixar o [link][dev-na-estrada] do podcast DevNaEstrada que participei, no qual o assunto foi exatamente esse: [Inglês pra quê?][dev-na-estrada]? Nele eu e outros convidados descrevemos um pouco sobre a nossa trajetória e damos algumas dicas.
 
 ### Primeiros passos
 
