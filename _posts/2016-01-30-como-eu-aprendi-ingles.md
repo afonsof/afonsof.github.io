@@ -19,7 +19,7 @@ Antes de tudo, gostaria de deixar o [link][dev-na-estrada] do podcast DevNaEstra
 
 Tudo começou no meu aniversário de 6 anos. Um dos convidados era piloto da extinta Varig e na época eles tinham uma espécie de livro educativo com várias histórias em quadrinhos com textos em português e inglês no balãozinho. Ele me deu esse livro junto com alguns outros brindes que a companhia aérea dava para os clientes. Convenhamos o cara pegou as paradas de graça e foi o presente que mais gostei. Passei meses lendo e relendo aquilo. Além disso, é a única recordação que tenho daquela festa de aniversário.
 
-Na mesma época eu comecei com os videogames que nos primeiros jogos já me encabulavam com o `PRESS START` ou o `GAME OVER` e posteriormente fui para jogos mais complexos como [Chrono Trigger][chrono-trigger] para Super Nintendo. Os jogos e o inglês-pra-inglês-ver do ensino fundamental e médio seriam as únicas fontes de aprendizado durante todo a minha infância e adolescência, pois minha família não se atentou na importância que o idioma tem.
+Na mesma época eu comecei com os videogames que nos primeiros jogos já me encabulavam com o `PRESS START` ou o `GAME OVER` e posteriormente fui para jogos mais complexos como [Chrono Trigger][chrono-trigger] para Super Nintendo. Os jogos e o inglês-pra-inglês-ver do ensino fundamental e médio seriam as únicas fontes de aprendizado durante toda a minha infância e adolescência, pois minha família não se atentou na importância que o idioma tem.
 
 ### Aprendizado básico
 
