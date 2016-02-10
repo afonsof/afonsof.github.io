@@ -12,6 +12,7 @@ categories:
 
 Some months ago I started to use Jenkins with a real project for the first time. In all the previous projects I participated the team had always decided for using a proprietary solution like pmease QuickBuild or Jetbrains TeamCity.
 <!--more-->
+
 My first impression using Jenkins was: "Ouch it's so ugly!". So I decided to improve it creating an open source theme. I've always enjoyed the new Google UI style thus I got the [Material Design Principles](https://www.google.com/design/) and applied to a fresh [new theme](https://github.com/afonsof/jenkins-material-theme). The result was:
 
 ![Jenkins Main Screen](https://cdn-images-1.medium.com/max/1600/1*sbGNpYfGwBS6mUzuiUYfgQ.png)
