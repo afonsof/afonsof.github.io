@@ -37,7 +37,7 @@ todo o código que a menciona.
 **ui-router:** Os links para a rota são baseados no nome do estado. Se a url precisar ser alterada. Todos os links que
 referenciam aquela rota serão alterados. Para isto basta usar o ui-sref.
 
-#### 4\. Rotas estátivas vs dinâmicas
+#### 4\. Rotas estáticas vs dinâmicas
 
 **ngRoute:** As rotas são estáticas e devem ser definidas no início da aplicação.  
 **ui-router:** Implementa o conceito de decorator que pode ser usado para permitir que as rotas sejam dinamicamente
