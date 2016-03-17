@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Web Dev Summit 2015
+title: VR Dev Summit 2015
 subtitle: Organized event in Rio for 200 people
 date: 2015-05-26 01:24:04.000000000 -03:00
 
