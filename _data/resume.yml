@@ -40,11 +40,19 @@
       type: "occupationList"
       layout: "work"
       items:
+        - organization: "Veriz Tecnologia"
+          period: "2016-current"
+          location: ""
+          occupations:
+            - title: "Software Engineer - Brasilia - Brazil (remote job)"
+              tasks:
+                - "Project: Email compliance tool (Angular + .NET + MongoDb)"
+
         - organization: "Associate.IO"
           period: "2015-current"
-          location: "San Francisco - CA (remote)"
+          location: ""
           occupations:
-            - title: "Software Engineer"
+            - title: "Software Engineer - San Francisco - CA (remote job)"
               tasks:
                 - "Help to create an innovative technology that allows retailers to empower their associates delivering the right information to the right person. It's possible to create customised rules and is integrated with 3rd party services like Instagram, Vend, Square, Zoho and Zendesk. (Python + Django + iOS + Javascript)"
 
