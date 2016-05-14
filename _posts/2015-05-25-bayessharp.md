@@ -13,8 +13,8 @@ buttons:
   icon: code-fork
   text: Fork
 
-img: bayessharp.png
-thumbnail: bayessharp.png
+img: bayessharp.jpg
+thumbnail: bayessharp.jpg
 
 categories:
 - projects
