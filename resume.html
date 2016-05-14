@@ -6,14 +6,13 @@ permalink: /resume/
 
 <html>
 <head>
-
-    <title>{{ resume.name }} | {{ resume.title }}</title>
+    <title>{{ site.author }}'s | {{ site.description }}</title>
+    <meta name="description" content="{{ site.description }}"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
-    <meta name="description" content=""/>
-
     <!-- Facebook -->
-    <meta property="og:title" content="{{ resume.name }}'s Resume">
+    <meta property="og:title" content="{{ site.author }}'s Resume">
+    <meta property="og:description" content="{{ site.description }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:type" content="website">
     <meta property="og:image"
@@ -79,9 +78,9 @@ permalink: /resume/
             background: #fff;
             padding: 10px 80px 80px;
 
-            -webkit-box-shadow: 0px 0px 47px -9px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 0px 47px -9px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 0px 47px -9px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0 0 47px -9px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0 0 47px -9px rgba(0, 0, 0, 0.75);
+            box-shadow: 0 0 47px -9px rgba(0, 0, 0, 0.75);
 
         }
 
@@ -110,6 +109,8 @@ permalink: /resume/
         }
 
         header .hgroup h2 {
+            font-size: 140%;
+            margin-top: 5px;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
@@ -288,8 +289,8 @@ permalink: /resume/
 <div class="paper">
     <header>
         <div class="hgroup">
-            <h1>{{ resume.name }}</h1>
-            <h2>{{ resume.title }}</h2>
+            <h1>{{ site.author }}</h1>
+            <h2>{{ site.description }}</h2>
         </div>
         <address style="white-space:pre">{{ resume.contactInfo }}</address>
     </header>

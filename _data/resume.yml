@@ -1,13 +1,12 @@
-  name:  "Afonso França de Oliveira"
-  title:  "Software Engineer"
   contactInfo:  "+55 19 97149-3245\nafonso.franca@gmail.com\nafonsof.com • github.com/afonsof\nlinkedin.com/in/afonsof"
+
   sections:
 
     - title:  "Main Skills"
       type: "keyValuePair"
       layout: "titled3Columns"
       items:
-        - key: "Web Programmer"
+        - key: "Web Developer"
           value: "For 10 years creating software, Started using PHP, passing through .NET and Python. Nowadays I'm experiencing NodeJS"
         - key: "Agile Enthusiast"
           value: "I've already worn the hat of Scrum Master and Product Owner, In these days we are also using some Kanban principles."
