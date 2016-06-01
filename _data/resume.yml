@@ -1,4 +1,22 @@
-  contactInfo:  "+1 647-784-6214\nafonso.franca@gmail.com\nafonsof.com • github.com/afonsof\nlinkedin.com/in/afonsof"
+  bornDate: "1984-05-08 00:00:00 -0300"
+
+  contactInfo:  "+1 647-784-6214<br>
+  afonso.franca@gmail.com<br>
+  afonsof.com • github.com/afonsof<br>
+  linkedin.com/in/afonsof"
+
+  tagline: "Hi, I'm Afonso, a curious 32-year-old man who
+            works as Full-Stack developer at the great startup <a href=\"http://associate.io\">associate.io</a>!"
+
+  intro: "I love coding and I've been doing this since I was a teenager. The first time I created a program,
+          I was trying to build a RPG within Excel.
+
+          Nowadays my job is a little different, but it's still fun.
+
+          I'm also an MBA in Project Management from <a href=\"http://fgv.br\">FGV</a> and
+          graduated in Computer Science at <a href=\"http://ubm.br/\">UBM</a>.
+
+          Here you can know more about me and my job. Enjoy!"
 
   sections:
 
@@ -6,13 +24,21 @@
       type: "keyValuePair"
       layout: "titled3Columns"
       items:
-        - key: "Web Developer"
-          value: "For 10 years creating software, Started using PHP, passing through .NET and Python. Nowadays I'm experiencing NodeJS"
-        - key: "Agile Enthusiast"
-          value: "I've already worn the hat of Scrum Master and Product Owner, In these days we are also using some Kanban principles."
-        - key: "Software Engineer"
-          value: "I know how is important to use TDD, Refactoring and Code Review to create profitable software."
+        - key: "Web Developer" # since 2002 in the college
+          value: "I've been creating software for 14 years.
+                  Started using <b>PHP</b>, passing through <b>.NET</b> and
+                  nowadays I enjoy <b>Javascript</b> and <b>Python</b>."
+          icon: "full-stack.svg"
 
+        - key: "Agile Enthusiast"
+          value: "I've already worn the hat of <b>Scrum Master</b> and <b>Product Owner</b>.
+                  In these days also using some <b>Kanban</b> principles."
+          icon: "agile.svg"
+
+        - key: "Software Engineer"
+          value: "I know how it is important to use <b>TDD</b>, <b>Refactoring</b> and <b>Code Review</b>
+                  in order to create a profitable software."
+          icon: "engineering.svg"
 
     - title: "Technical"
       type: "array"
