@@ -72,15 +72,15 @@
           occupations:
             - title: "Software Engineer - Brasilia - Brazil (remote job)"
               tasks:
-                - "Project: Email compliance tool (Angular + .NET + MongoDb)"
+                - "Project: Email compliance tool (Javascript + Angular + Sass + .NET + MongoDb + Redis + ElasticSearch + RabbitMQ + AWS)"
 
-        - organization: "Associate.IO"
-          period: "2015-current"
+        - organization: "Scalable Path"
+          period: "2015-2016"
           location: ""
           occupations:
             - title: "Software Engineer - San Francisco - CA (remote job)"
               tasks:
-                - "Help to create an innovative technology that allows retailers to empower their associates delivering the right information to the right person. It's possible to create customised rules and is integrated with 3rd party services like Instagram, Vend, Square, Zoho and Zendesk. (Python + Django + iOS + Javascript)"
+                - "Help to create an innovative technology that allows retailers to empower their associates delivering the right information to the right person. It's possible to create customised rules and is integrated with 3rd party services like Instagram, Vend, Square, Zoho and Zendesk. (Python + Django + iOS + Javascript + MySQL + Redis + AWS)"
 
         - organization: "Diebold Inc."
           period: "2006-2015"
@@ -88,10 +88,10 @@
           occupations:
             - title: "Software Engineer"
               tasks:
-                - "Fraud prevention console (C# ASP.NET MVC)"
-                - "Internal Intranet (C# ASP.NET MVC)"
+                - "Fraud prevention console (Vanilla Javascript + .NET + SQL Server + jQuery)"
+                - "Internal Intranet (Vanilla Javascript + .NET + SQL Server + jQuery)"
                 - "Social Network Malware finder (Python)"
-                - "Antivirus GUI (C++)"
+                - "Antivirus GUI (C++ + MFC)"
                 - "Unique Machine Identification (Javascript)"
                 - "Continuous integration scripts (Python)"
                 - "Design Patterns, TDD and Code Coverage"
