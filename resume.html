@@ -9,6 +9,7 @@ permalink: /resume/
     <title>{{ site.author }}'s resume &mdash; {{ site.description }} &mdash; {{resume.location }}</title>
     <meta name="description" content="{{ site.description }}"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Facebook -->
     <meta property="og:title" content="{{ site.author }}'s Resume">
@@ -61,8 +62,13 @@ permalink: /resume/
             padding-right: 3em;
         }
 
-        a:hover {
+        a {
             text-decoration: none;
+            color: #333;
+        }
+
+        a:hover{
+            text-decoration: underline;
         }
 
         strong {
@@ -274,6 +280,102 @@ permalink: /resume/
             .btn {
                 display: none;
             }
+        }
+
+        @media only screen
+        and (min-device-width: 320px)
+        and (max-device-width: 480px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+            body{
+                width: auto;
+                font-size: 18px;
+            }
+            .paper{
+                margin: 0;
+                padding: 25px;
+            }
+            header{
+                margin-top: 20px;
+                text-align: center;
+            }
+            header .hgroup {
+                float: none;
+                margin-left: 0;
+                width: auto;
+            }
+            header h1{
+                font-size: 230% !important;
+            }
+
+            header address{
+                float: none;
+                width: auto;
+                margin-left: 0;
+                text-align: center;
+                padding-top: 20px
+            }
+            section>h2{
+                float: none;
+                width: auto;
+                font-size: 200%;
+            }
+            section>div{
+                float: none;
+                width: auto !important;
+            }
+            section .skill{
+                width: auto;
+                float: none;
+            }
+            section .list-3-cols, section .list-2-cols{
+                width: auto;
+                float: none;
+                list-style: disc;
+            }
+            section .list-3-cols li, section .list-2-cols li{
+                border: none;
+                line-height: 28px;
+                float: left;
+                display: block;
+                background-color: #e0e0e0;
+                padding: 5px 8px;
+                margin: 5px 2px;
+                border-radius: 5px;
+            }
+            .skill h2{
+                margin-top: 20px;
+            }
+            section>h2{
+                margin-bottom: 20px;
+            }
+
+            p{
+                padding-right: 0;
+                line-height: 28px !important;
+            }
+            section>div>h2, section>div>h3{
+                display: block;
+            }
+
+            section .experience h2, section .education h3{
+                display: inline;
+                position: inherit;
+                margin-top: 20px;
+            }
+            section .education h2, section .volunteer h2{
+                margin-top: 20px;
+            }
+            section h4{
+                display: inline !important;
+                position: inherit !important;
+            }
+            section h4:before{
+                content: "(";
+            }
+            section h4:after{
+                content: ")";
+            }
+
         }
     </style>
 </head>

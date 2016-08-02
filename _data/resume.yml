@@ -1,10 +1,11 @@
   bornDate: "1984-05-08 00:00:00 -0300"
   location: "Toronto - ON"
 
-  contactInfo:  "+1 647-784-6214<br>
-  afonso.franca@gmail.com<br>
-  afonsof.com • github.com/afonsof<br>
-  linkedin.com/in/afonsof"
+  contactInfo:  "
+  <a href=\"tel:+16477846214\">+1 647-784-6214</a><br>
+  <a href=\"mailto:afonso.franca@gmail.com\">afonso.franca@gmail.com</a><br>
+  <a href=\"http://afonsof.com\">afonsof.com</a> • <a href=\"https://github.com/afonsof\">github.com/afonsof</a><br>
+  <a href=\"https://linkedin.com/in/afonsof\">linkedin.com/in/afonsof</a>"
 
   tagline: "Hi, I'm Afonso, a curious 32-year-old man who lives in Toronto and
             works as Full-Stack developer at the great startup associate.io!"
