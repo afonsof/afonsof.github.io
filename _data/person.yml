@@ -17,12 +17,6 @@
     - https://linkedin.com/in/afonsof
     - http://plus.google.com/+afonsof
 
-  address":
-    "@type": PostalAddress
-    addressLocality: Toronto, Canada
-    addressRegion: ON
-
-
   spouse:
     "@id": https://www.facebook.com/juliana.barrostorchia
     name: Juliana Barros Torchia de Oliveira
