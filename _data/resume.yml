@@ -6,10 +6,10 @@
   <a href=\"http://afonsof.com\">afonsof.com</a> • <a href=\"https://github.com/afonsof\">github.com/afonsof</a><br>
   <a href=\"https://linkedin.com/in/afonsof\">linkedin.com/in/afonsof</a>"
 
-  tagline: "Hi, I'm Afonso, a curious 32-year-old man who lives in Toronto and
-            works as Full-Stack developer at the great startup associate.io!"
+  tagline: Hi, I'm Afonso, a curious 32-year-old man who lives in Toronto and
+           works as Full-Stack developer at the great startup associate.io!
 
-  intro: "I love coding and I've been doing this since I was a teenager. The first time I created a program,
+  intro: I love coding and I've been doing this since I was a teenager. The first time I created a program,
           I was trying to build a RPG within Excel.
 
           Nowadays my job is a little different, but it's still fun.
@@ -17,156 +17,198 @@
           I'm also an MBA in Project Management from <a href=\"http://fgv.br\">FGV</a> and
           graduated in Computer Science at <a href=\"http://ubm.br/\">UBM</a>.
 
-          Here you can know more about me and my job. Enjoy!"
+          Here you can know more about me and my job. Enjoy!
 
   sections:
 
-    - title:  "Main Skills"
-      type: "keyValuePair"
-      layout: "titled3Columns"
+    - title:  Main Skills
+      type: keyValuePair
+      layout: titled3Columns
       items:
-        - key: "Web Developer" # since 2002 in the college
-          value: "I've been creating software for 14 years.
-                  Started using <b>PHP</b>, passing through <b>.NET</b> and
-                  nowadays I enjoy <b>Javascript</b> and <b>Python</b>."
-          icon: "full-stack.svg"
+        - key: Web Developer # since 2002 in the college
+          value: I've been creating software for 14 years. Started using <b>PHP</b>, passing through <b>.NET</b> and
+                 nowadays I enjoy <b>Javascript</b> and <b>Python</b>.
+          icon: full-stack.svg
 
-        - key: "Agile Enthusiast"
-          value: "I've already worn the hat of <b>Scrum Master</b> and <b>Product Owner</b>.
-                  In these days also using some <b>Kanban</b> principles."
-          icon: "agile.svg"
+        - key: Agile Enthusiast
+          value: I've already worn the hat of <b>Scrum Master</b> and <b>Product Owner</b>.
+                 In these days also using some <b>Kanban</b> principles."
+          icon: agile.svg
 
-        - key: "Software Engineer"
-          value: "I know how it is important to use <b>TDD</b>, <b>Refactoring</b> and <b>Code Review</b>
-                  in order to create a profitable software."
-          icon: "engineering.svg"
+        - key: Software Engineer
+          value: I know how it is important to use <b>TDD</b>, <b>Refactoring</b> and <b>Code Review</b>
+                 in order to create a profitable software.
+          icon: engineering.svg
 
-    - title: "Technical"
-      type: "array"
-      layout: "list3Columns"
+    - title: Highlights
+      type: array
+      layout: list3Columns
       items:
-        - "C#/ASP.NET MVC"
-        - "Javascript"
-        - "HTML5"
-        - "NodeJS"
-        - "CSS3"
-        - "Agile"
-        - "XP"
-        - "Kanban"
-        - "Scrum"
-        - "Python/Django"
-        - "Code Coverage"
-        - "Design Patterns"
-        - "TDD"
-        - "CVS"
-        - "Continuous Integration"
+        - ECMAScript 5/2015/2016...
+        - NodeJS
+        - HTML5
+        - CSS3 / SASS / Precompilers
+        - Agile
+        - Scrum
+        - Kanban
+        - eXtreme Programming
+        - Python / Django
+        - C# / ASP.NET MVC
+        - Code Coverage
+        - Design Patterns
+        - TDD
+        - GIT
+        - Jenkins / gulp / grunt / npm
 
 
-    - title: "Work Experiences"
-      type: "occupationList"
-      layout: "work"
+    - title: Work Experiences
+      type: occupationList
+      layout: work
       items:
-        - organization: "Veriz Tecnologia"
-          period: "2016-current"
-          location: ""
+        - organization: Veriz Tecnology
+          period: 2016-current
           occupations:
-            - title: "Software Engineer - Brasilia - Brazil (remote job)"
+            - title: Software Engineer - Brasilia - Brazil (remote job)
               tasks:
-                - "Project: Email compliance tool (Javascript + Angular + Sass + .NET + MongoDb + Redis + ElasticSearch + RabbitMQ + AWS)"
+                - title: Email compliance tool
+                  tags:
+                    - Javascript
+                    - AngularJs 1.5
+                    - Sass
+                    - MongoDb
+                    - Redis
+                    - ElasticSearch
+                    - RabbitMQ
+                    - .NET
+                    - AWS
 
-        - organization: "Scalable Path"
-          period: "2015-2016"
-          location: ""
+        - organization: Scalable Path
+          period: 2015-2016
           occupations:
-            - title: "Software Engineer - San Francisco - CA (remote job)"
+            - title: Software Engineer - San Francisco - CA (remote job)
               tasks:
-                - "Help to create an innovative technology that allows retailers to empower their associates delivering the right information to the right person. It's possible to create customised rules and is integrated with 3rd party services like Instagram, Vend, Square, Zoho and Zendesk. (Python + Django + iOS + Javascript + MySQL + Redis + AWS)"
+                - title: Help to create an innovative technology
+                         that allows retailers to empower their associates
+                         delivering the right information to the right person.
+                         It's possible to create customised rules
+                         and is integrated with 3rd party services
+                         like Instagram, Vend, Square, Zoho and Zendesk.
+                  tags:
+                    - Javascript
+                    - AngularJs 1.4
+                    - Redis
+                    - MySQL
+                    - Python
+                    - Django
+                    - AWS
 
-        - organization: "Diebold Inc."
-          period: "2006-2015"
-          location: "São Paulo -  Brazil"
+        - organization: Diebold Inc.
+          period: 2006-2015
+          location: São Paulo -  Brazil
           occupations:
-            - title: "Software Engineer"
+            - title: Technical Team Lead (2009-2015)
               tasks:
-                - "Fraud prevention console (Vanilla Javascript + .NET + SQL Server + jQuery)"
-                - "Internal Intranet (Vanilla Javascript + .NET + SQL Server + jQuery)"
-                - "Social Network Malware finder (Python)"
-                - "Antivirus GUI (C++ + MFC)"
-                - "Unique Machine Identification (Javascript)"
-                - "Continuous integration scripts (Python)"
-                - "Design Patterns, TDD and Code Coverage"
-                - "Heuristic site classifier (Python)"
-            - title: "Technical Team Lead /  Scrum Master"
-              tasks:
-                - "Project: Fraud prevention console (9 developers)"
-                - "Agile based methodology"
-                - "C# + ASP.NET MVC + SQLServer + Oracle Project"
-                - "Protecting 40 millions of devices"
-            - title: "Technical Team Lead / Scrum Master"
-              tasks:
-                - "Project: OAuth based Authentication Gateway (7 developers)"
-                - "Agile based methodology"
-                - "Android + IOS + Django Project"
+                - title: Fraud prevention console used to protect 50M brasilians against frauds
+                  tags:
+                    - Agile
+                    - 9 developers
+                    - Vanilla Javascript
+                    - .NET
+                    - SQL Server
+                    - jQuery
+                    - Python
+                    - TDD
+                    - Design Patterns
+                    - Code coverage
+                - title: OAuth based Authentication Gateway
+                  tags:
+                    - Agile
+                    - 7 developers
+                    - Android
+                    - IOS
+                    - Python
+                    - Django
 
-        - organization: "Flextronics International"
-          period: "2005-2006"
+            - title: Software Engineer (2006-2009)
+              tasks:
+                - title: Intranet
+                  tags:
+                    - .NET
+                    - Javascript
+                    - SQL Server
+                    - jQuery
+
+                - title: Social Network Malware finder
+                  tags: Python
+
+                - title: Javascript based Machine Identification
+                  tags: Javascript
+
+                - title: Site classifier
+                  tags:
+                    - Bayesian network
+                    - Python
+
+        - organization: Flextronics International
+          period: 2005-2006
           occupations:
-            - title: "IT Trainee"
+            - title: IT Trainee
               tasks:
-                - "Delivered internal softwares made using PHP"
+                - title: Maintenance of internal projects
+                  tags: PHP
 
 
-    - title: "Education"
-      type: "occupationList"
-      layout: "education"
+    - title: Education
+      type: occupationList
+      layout: education
       items:
-        - period: "2008-2011"
-          title: "MBA in Project Management (PMBOK based)"
-          organization: "FGV – Getúlio Vargas Foundation"
+        - period: 2008-2011
+          title: MBA in Project Management
+          organization: FGV – Getúlio Vargas Foundation
 
-        - period: "2002-2006"
-          title: "Bachelor of Science Degree, Computer Science"
-          organization: "UBM – University Center of Barra Mansa"
+        - period: 2002-2006
+          title: Bachelor of Science Degree, Computer Science
+          organization: UBM – University Center of Barra Mansa
 
 
-    - title: "Volunteer Experience"
-      type: "occupationList"
-      layout: "volunteer"
+    - title: Volunteer Experience
+      type: occupationList
+      layout: volunteer
       items:
-        - title: "Participant in development podcast"
-          organization: "Dev na Estrada (devnaestrada.com.br)"
+        - title: Guest in development podcast
+          organization: Dev na Estrada (devnaestrada.com.br)
           content: "Episodes: #48 The Developer Salaries • #46 - The life in a startup • #35 Why learn English?"
 
-        - title: "Creator of a Material Design based Jenkins Theme"
-          organization: "github.com/jenkins-contrib-themes/jenkins-material-theme"
+        - title: Creator of a Material Design based Jenkins Theme
+          organization: github.com/jenkins-contrib-themes/jenkins-material-theme
           content: "Project: Jenkins Material Theme"
 
-        - title: "Co-creator and Presenter"
+        - title: Co-creator and Presenter
           organization: "Google Developer Group event: Web Dev Summit 2015"
-          content: "Organized an event for 200 people."
+          content: Organized an event for 200 people.
 
-        - title: "Community Leader"
-          organization: "Youth Baptist Southern Rio"
-          content: "Coordinated 24 fellowship and entertainment events of a group of 2,000 youths."
+        - title: Community Leader
+          organization: Youth Baptist Southern Rio
+          content: Coordinated 24 fellowship and entertainment events of a group of 2,000 youths.
 
 
-    - title: "Certifications and Trainings"
-      type: "array"
-      layout: "list2Columns"
+    - title: Conferences and Courses
+      type: array
+      layout: list2Columns
       items:
-        - "Certified Lean-Kanban"
-        - "CSPO – Certified Scrum Product Owner"
-        - "Management 3.0 - Agile Leadership Practices"
-        - "CSM – Certified Scrum Master"
-        - "MCP - Programming in HTML5 with Js and CSS3"
-        - "GDG Dev Fest Sudeste 2014"
-        - "Tableless Conference 2014"
-        - "BrazilJS 2014, 2015 and 2016"
-        - "Black Hat and DefCon 2014 and 2015"
-        - "Agile Trends 2014 and 2015"
-        - "Chrome Dev Summit 2013"
-        - "Agile Brazil 2013"
-        - "Visual Studio Summit 2013"
-        - "ACM – Intern. Collegiate Program. Contest 2006"
-        - "Advanced English Course - San Francisco 2015"
-        - "SorocabaJS 2015"
+        - "Conf: BrazilJS - Porto Alegre 2014/2015/2016"
+        - "Course: Advanced English - San Francisco 2015"
+        - "Conf: BlackHat/DefCon - Las Vegas 2014/2015"
+        - "Conf: Agile Trends - 2014/2015"
+        - "Meetup: Front-end - Campinas 2015"
+        - "Meetup: SorocabaJS 2015"
+        - "Conf: GDG Dev Fest - Sudeste 2014"
+        - "Conf: Tableless Conference 2014"
+        - "Conf: Chrome Dev Summit - Mountain View 2013"
+        - "Conf: Visual Studio Summit - São Paulo 2013"
+        - "Conf: Agile Brazil - Brasilia 2013"
+        - "Course: Management 3.0 - Agile Leadership Practices"
+        - "Course: Certified Lean-Kanban"
+        - "Course: Certified Scrum Product Owner"
+        - "Course: Certified Scrum Master"
+        - "Certification: MCP - HTML5 with Js and CSS3"

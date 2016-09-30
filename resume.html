@@ -262,6 +262,16 @@ permalink: /resume/
             text-decoration: none;
         }
 
+        .tag{
+            border-radius: 2px;
+            padding: 2px 5px;
+            margin-left: 2px;
+            color: #666;
+            background-color: #efefef;
+            white-space:nowrap;
+            font-size: 90%;
+        }
+
         .btn-print {
             position: fixed;
             right: 30px;
@@ -280,6 +290,17 @@ permalink: /resume/
 
             .btn {
                 display: none;
+            }
+
+            .tag{
+                border-radius: 2px;
+                padding: 2px 5px;
+                margin-left: 2px;
+                color: #666;
+                background-color: #efefef;
+                white-space:nowrap;
+                font-size: 90%;
+                -webkit-print-color-adjust: exact;
             }
         }
 
@@ -456,10 +477,13 @@ permalink: /resume/
                         <h3>{{ occupation.title }}</h3>
                         <p>
                             {% for task in occupation.tasks %}
-                            {% if forloop.index0 != 0 %}
-                            •
-                            {% endif %}
-                            {{ task }}
+                                {% if forloop.index0 != 0 %}
+                                <br>
+                                {% endif %}
+                                • {{ task.title }}
+                                {% for tag in task.tags %}
+                                    <span class="tag">{{ tag}}</span>
+                                {% endfor %}
                             {% endfor %}
                         </p>
                     </div>
