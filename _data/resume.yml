@@ -44,7 +44,7 @@
       type: array
       layout: list3Columns
       items:
-        - ECMAScript 5/2015/2016...
+        - Javascript / ES2015 / ES2016...
         - NodeJS
         - HTML5
         - CSS3 / SASS / Precompilers
