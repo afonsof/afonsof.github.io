@@ -65,15 +65,6 @@
       type: occupationList
       layout: work
       items:
-        - organization: EventMobi
-          period: 2016-2016
-          occupations:
-            - title: Software Engineer - Toronto - ON
-              tasks:
-                - title: Aaaa
-                  tags:
-                    - AngularJs
-                    - Django
         - organization: Veriz Tecnology
           period: 2016-current
           occupations:
@@ -90,6 +81,16 @@
                     - RabbitMQ
                     - .NET
                     - AWS
+                    
+        - organization: EventMobi
+          period: 2016-2016
+          occupations:
+            - title: Software Engineer - Toronto - ON
+              tasks:
+                - title: Internal CMS
+                  tags:
+                    - AngularJs
+                    - Python
 
         - organization: Scalable Path
           period: 2015-2016
