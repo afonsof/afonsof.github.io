@@ -65,6 +65,15 @@
       type: occupationList
       layout: work
       items:
+        - organization: EventMobi
+          period: 2016-2016
+          occupations:
+            - title: Software Engineer - Toronto - ON
+              tasks:
+                - title: Aaaa
+                  tags:
+                    - AngularJs
+                    - Django
         - organization: Veriz Tecnology
           period: 2016-current
           occupations:
