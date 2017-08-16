@@ -206,24 +206,13 @@
       type: occupationList
       layout: volunteer
       items:
-        - title: Guest in development podcast
-          organization: Dev na Estrada (devnaestrada.com.br)
-          content: "Episodes: #48 The Developer Salaries • #46 - The life in a startup • #35 Why learn English?"
-
-        - title: Creator of a Material Design based Jenkins Theme
-          organization: github.com/jenkins-contrib-themes/jenkins-material-theme
-          content: "Project: Jenkins Material Theme"
-
-        - title: Co-creator and Presenter
-          organization: "Google Developer Group event: Web Dev Summit 2015"
-          content: Organized an event for 200 people.
-
-        - title: Community Leader
-          organization: Youth Baptist Southern Rio
-          content: Coordinated 24 fellowship and entertainment events of a group of 2,000 youths.
-
-
-
+        - title: UBM Hackathon 2017 - 3rd Place
+          organization: UBM – University Center of Barra Mansa
+          content: "The team created a Smart City Bot capable of providing tips and information about bus
+                    and garbage collector times, events in the city and more. It also understands problem
+                    reporting where the user is able to set the location and problem details. The user also
+                    receives notifications when the problem is solved by the State employee"
+          
 
     - title: Conferences and Courses
       type: array
