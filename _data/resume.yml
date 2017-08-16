@@ -206,7 +206,7 @@
       type: occupationList
       layout: volunteer
       items:
-        - title: UBM Hackathon 2017 - 3rd Place
+        - title: (3rd Place) UBM Hackathon 2017
           organization: UBM – University Center of Barra Mansa
           content: "The team created a Smart City Bot capable of providing tips and information about bus
                     and garbage collector times, events in the city and more. It also understands problem
