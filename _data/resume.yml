@@ -187,24 +187,28 @@
           organization: UBM – University Center of Barra Mansa
 
 
-    - title: Volunteer Experience
+    - title: Community Contributions
       type: occupationList
       layout: volunteer
       items:
-        - title: Guest in development podcast
+        - title: Creator of the most used Jenkins in the World
+          organization: github.com/afonsof/jenkins-material-theme
+          content: "Project: Jenkins Material Theme"
+      
+        - title: Community Event Promoter
+          organization: "Google Developer Group event: Rio Sul Valley Dev Summit 2017"
+          content: Organized an event for 200 people.
+
+        - title: Guest in Software Development podcast
           organization: Dev na Estrada (devnaestrada.com.br)
           content: "Episodes: #48 The Developer Salaries • #46 - The life in a startup • #35 Why learn English?"
 
-        - title: Creator of a Material Design based Jenkins Theme
-          organization: github.com/jenkins-contrib-themes/jenkins-material-theme
-          content: "Project: Jenkins Material Theme"
-
-        - title: Co-creator and Presenter
+        - title: Community Event Promoter and Presenter
           organization: "Google Developer Group event: Web Dev Summit 2015"
           content: Organized an event for 200 people.
 
         - title: Community Leader
-          organization: Youth Baptist Southern Rio
+          organization: Youth Baptist Southern Rio 2008-2013
           content: Coordinated 24 fellowship and entertainment events of a group of 2,000 youths.
 
 
@@ -224,9 +228,9 @@
       type: array
       layout: list2Columns
       items:
-        - "Meetup: Rio Sul Valley - Volta Redonda 2017"
-        - "Meetup: TorontoJS - Toronto 2016"
-        - "Conf: BrazilJS - Porto Alegre 2014/2015/2016"
+        - "Tech Meetups: Rio Sul Valley - Volta Redonda 2017"
+        - "Tech Meetups: TorontoJS - Toronto 2016"
+        - "Conf: BrazilJS - Porto Alegre 2014/2015/2016/2017"
         - "Course: Advanced English - San Francisco 2015"
         - "Conf: BlackHat/DefCon - Las Vegas 2014/2015"
         - "Conf: Agile Trends - 2014/2015"
