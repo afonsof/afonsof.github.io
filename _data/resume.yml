@@ -25,8 +25,8 @@
       type: keyValuePair
       layout: titled3Columns
       items:
-        - key: Web Developer # since 2002 in the college
-          value: I've been creating software for 14 years. Started using <b>PHP</b>, passing through <b>.NET</b> and
+        - key: Software Craftsman # since 2001 when I started to study programming
+          value: I've been creating software for 16 years. Started using <b>PHP</b>, passing through <b>.NET</b> and
                  nowadays I enjoy <b>Javascript</b> and <b>Python</b>.
           icon: full-stack.svg
 
