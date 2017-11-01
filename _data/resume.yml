@@ -198,10 +198,14 @@
           organization: UBM – University Center of Barra Mansa
 
 
-    - title: Community Contributions
+    - title: Community Contributions and Speaks
       type: occupationList
       layout: volunteer
       items:
+        - title: Speaker in congresses - 2017
+          organization: Automating a house spending less using Google Assistant and NodeJS
+          content: "Places: GDG Sul Fluminense Meetup, GDG Dev Fest Centro Sul, GDG Dev Fest Campinas"
+        
         - title: Creator of the most used Jenkins in the World
           organization: github.com/afonsof/jenkins-material-theme
           content: "Project: Jenkins Material Theme"
