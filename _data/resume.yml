@@ -89,7 +89,7 @@
                 - title: Email compliance tool
                   tags:
                     - Javascript
-                    - AngularJs 1.5
+                    - AngularJs
                     - Sass
                     - MongoDb
                     - Redis
@@ -122,7 +122,7 @@
                          like Instagram, Vend, Square, Zoho and Zendesk.
                   tags:
                     - Javascript
-                    - AngularJs 1.4
+                    - AngularJs
                     - Redis
                     - MySQL
                     - Python
