@@ -66,13 +66,23 @@
       layout: work
       items:
       
-        - organization: Pomodo Digital
-          period: 2016-current
+        - organization: Gupy,io
+          period: 2017-current
           occupations:
-            - title: Software Development Consultant
+            - title: Software Engineer and Tech Lead - São Paulo - Brazil (remote job)
+              tasks:
+                - title: Recruiting software
+                  tags:
+                    - Javascript
+                    - NodeJS
+                    - React + Redux
+                    - Postgresql
+                    - ElasticSearch
+                    - SQS
+                    - AWS
 
         - organization: Veriz Tecnology
-          period: 2016-current
+          period: 2016-2017
           occupations:
             - title: Software Engineer - Brasilia - Brazil (remote job)
               tasks:
