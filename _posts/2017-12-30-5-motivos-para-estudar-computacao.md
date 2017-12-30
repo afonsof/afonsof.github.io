@@ -10,6 +10,10 @@ categories:
 - blog
 ---
 
+Neste artigo irei descrever 5 razões pelas quais faz sentido trabalhar com desenvolvimento de software atualmente
+
+<!--more-->
+
 ## 1. Não é preciso pagar para aprender
 Se você tiver um computador simples já pode começar a desenvolver em Python ou Javascript por exemplo. Para estudar é possível encontrar cursos online gratuitos como no site codecademy. Além disso, também é possível obter apoio da comunidade participando de graça de meetups e através de sites de resolução de problemas como o stackoverflow. Aliás, as empresas contratantes se interessam mais pelo que você sabe do que pelo diploma que você tem. Então, mesmo sendo recomendado, não é necessário ter Ensino Superior para conseguir bons cargos.
 
