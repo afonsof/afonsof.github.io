@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #refatoração: Bloqueando o código Hadouken
+title: "#refatoração: Bloqueando o código Hadouken"
 date: 2018-01-15 21:00:00.000000000 -02:00
 type: post
 published: true
