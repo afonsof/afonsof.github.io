@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como se tornar um programador melhor? Code Kata
+title: Como se tornar um programador melhor #1: Code Kata
 date: 2018-04-30 21:00:00.000000000 -02:00
 type: post
 published: true
