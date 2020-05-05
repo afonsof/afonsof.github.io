@@ -9,6 +9,9 @@
   "keywords": [
     "afonsof"
   ],
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  },
   "author": "Afonso F",
   "license": "MIT",
   "devDependencies": {

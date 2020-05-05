@@ -2,7 +2,7 @@
 layout: post
 title: Principais diferenças entre o ngRoute e o ui-router
 date: 2015-06-09 00:39:46.000000000 -03:00
-type: post
+type: article
 published: true
 status: publish
 categories:

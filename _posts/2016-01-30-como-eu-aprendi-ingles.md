@@ -2,7 +2,7 @@
 layout: post
 title: Como eu aprendi Inglês
 date: 2016-01-30 00:00:00.000000000 -03:00
-type: post
+type: article
 published: true
 status: publish
 img: como-aprendi-ingles.png

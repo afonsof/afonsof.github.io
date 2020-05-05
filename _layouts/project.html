@@ -2,15 +2,7 @@
 layout: default
 ---
 
-<style>
-    @media (min-width: 768px) {
-        .navbar-default {
-            background-color: rgb(19, 24, 27) !important;
-        }
-    }
-</style>
-
-<div class="container" style="padding-top: 150px; text-align: center">
+<div class="container" style="padding-top: 150px;">
     <div class="row">
         <div class="col-lg-12">
 
@@ -28,12 +20,9 @@ layout: default
                 </p>
 
 
-                {% for button in page.buttons %}
-                <a class="btn btn-default" href="{{ button.url }}">
-                    <i class="fa fa-{{button.icon}}"></i>
-                    {{ button.text }}
+                <a class="btn btn-default" href="{{ page.ext_url }}" target="_blank">
+                    Acessar
                 </a>
-                {% endfor %}
             </div>
         </div>
     </div>

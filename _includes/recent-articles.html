@@ -1,0 +1,16 @@
+{% assign i18n = site.data.translation %}
+
+<section id="recent-articles">
+    <h2 class="section-heading">{{ i18n.recentArticles[page.lang] }}</h2>
+    <ul class="article-list">
+        {% for post in site.categories['blog'] | sort:"date" | reverse | limit: 6 %}
+        <li class="article-item">
+            <a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">
+                <div>{{ post.title }}</div>
+                <div>{{ post.date | date: "%d/%m/%y" }}</div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ site.baseurl }}/blog" class="show-all">{{ i18n.showAll[page.lang] }}...</a>
+</section>

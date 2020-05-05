@@ -2,7 +2,7 @@
 layout: post
 title: 5 motivos para estudar computação
 date: 2017-12-30 21:00:00.000000000 -02:00
-type: post
+type: article
 published: true
 status: publish
 img: 5-reasons.png

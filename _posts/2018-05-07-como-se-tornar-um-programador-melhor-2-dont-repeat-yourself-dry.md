@@ -6,8 +6,8 @@ type: post
 published: true
 status: publish
 img: 5-reasons.png
+type: youtube
+youtube_id: 76np7YavxJg
 categories:
 - blog
 ---
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/76np7YavxJg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>

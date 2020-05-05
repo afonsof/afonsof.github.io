@@ -2,7 +2,7 @@
 layout: post
 title: jenkins-material-theme — Beautify your Jenkins with the Material Design theme!
 date: 2016-02-10 00:00:00.000000000 -03:00
-type: post
+type: article
 published: true
 status: publish
 img: como-aprendi-ingles.png

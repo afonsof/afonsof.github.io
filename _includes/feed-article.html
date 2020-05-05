@@ -1,0 +1,21 @@
+{% assign i18n = site.data.translation %}
+
+<a href="{{ url }}" target="{{ target }}" class="feed-article">
+    <section class="content">
+        <header class="eyebrow">
+            <time class="uni-timesince" datetime="{{ post.date }}">{{ post.date | date: "%d/%m/%y" }}</time>
+            {% if post.type %}
+                | {{ i18n[post.type][page.lang] }}
+            {% endif %}
+        </header>
+        <h3 class="title">{{ post.title }}</h3>
+    </section>
+    {% if image_url %}
+    <div>
+        <figure
+            class="image"
+            style="background-image: url('{{ image_url }}');">
+        </figure>
+    </div>
+    {% endif %}
+</a>

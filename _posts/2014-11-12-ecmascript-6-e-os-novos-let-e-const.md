@@ -2,7 +2,7 @@
 layout: post
 title: ECMAScript 6 e os novos let e const
 date: 2014-11-12 18:02:35.000000000 -02:00
-type: post
+type: article
 published: true
 status: publish
 categories:

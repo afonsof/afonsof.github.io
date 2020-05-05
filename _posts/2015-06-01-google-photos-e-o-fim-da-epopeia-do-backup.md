@@ -2,7 +2,7 @@
 layout: post
 title: Google Photos e o fim da epopéia do backup
 date: 2015-06-01 06:24:48 -03:00
-type: post
+type: article
 published: true
 image: http://afonsof.com/wp-content/uploads/2015/06/google-photos.jpg
 categories:

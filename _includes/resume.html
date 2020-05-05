@@ -1,20 +1,15 @@
----
-layout: nil
-permalink: /resume/
----
-
 {% assign resume = site.data.resume %}
 
-<html>
+<html lang="{{ page.lang }}">
 <head>
-    <title>{{ site.author }}'s resume &mdash; {{ site.description }} &mdash; {{resume.location }}</title>
-    <meta name="description" content="{{ site.description }}"/>
+    <title>{{ site.author }}'s resume &mdash; {{ resume.tagline[page.lang] }} &mdash; {{resume.location }}</title>
+    <meta name="description" content="{{ resume.title[page.lang] | strip_html }}"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Facebook -->
     <meta property="og:title" content="{{ site.author }}'s Resume">
-    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ resume.tagline[page.lang] | strip_html }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:type" content="website">
     <meta property="og:image"
@@ -250,8 +245,6 @@ permalink: /resume/
             color: #333;
             font-size: 16px;
             text-decoration: none;
-            width: 56px;
-            height: 56px;
             width: 1.5cm;
             height: 1.5cm;
             box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
@@ -412,8 +405,7 @@ permalink: /resume/
     <header>
         <div class="hgroup">
             <h1>{{ site.author }}</h1>
-            <h2>{{ site.description }}</h2>
-            <h3>{{ resume.location }}</h3>
+            <h2>{{ resume.title[page.lang] }}</h2>
         </div>
         <address style="white-space:pre">{{ resume.contactInfo }}</address>
     </header>
@@ -422,7 +414,7 @@ permalink: /resume/
         {% for section in resume.sections %}
         <section class="{{ section.layout }}">
 
-            <h2>{{ section.title }}</h2>
+            <h2>{{ section.title[page.lang] }}</h2>
 
             {% if section.layout == 'text' %}
             <div class="profile">
@@ -434,8 +426,8 @@ permalink: /resume/
             <div>
                 {% for item in section.items %}
                 <div class="skill">
-                    <h2>{{ item.key }}</h2>
-                    <p>{{ item.value }}</p>
+                    <h2>{{ item.key[page.lang] }}</h2>
+                    <p>{{ item.value[page.lang] }}</p>
                 </div>
                 {% endfor %}
             </div>
@@ -459,21 +451,28 @@ permalink: /resume/
             </div>
             {% endif %}
 
-            {% if(section.layout == 'work') { %}
+            {% if section.layout == 'work' %}
             <div>
                 {% for experience in section.items %}
                 <div class="experience">
                     <h2>{{ experience.organization }}</h2>
-                    <h4>{{ experience.period }}</h4>
+                    <h4>
+                        {{ experience.start }} -
+                        {% if experience.end %}
+                            {{ experience.end }}
+                        {% else %}
+                            current
+                        {% endif %}
+                    </h4>
                     {% for occupation in experience.occupations %}
                     <div class="occupation">
-                        <h3>{{ occupation.title }}</h3>
+                        <h3>{{ occupation.title[page.lang] }}</h3>
                         <p>
                             {% for task in occupation.tasks %}
                                 {% if forloop.index0 != 0 %}
                                 <br>
                                 {% endif %}
-                                • {{ task.title }}
+                                • {{ task.title[page.lang] }}
                                 {% for tag in task.tags %}
                                     <span class="tag">{{ tag}}</span>
                                 {% endfor %}
@@ -489,14 +488,21 @@ permalink: /resume/
             {% if section.layout == "education" %}
             {% for education in section.items %}
             <div class="education">
-                <h2>{{ education.title }}</h2>
+                <h2>{{ education.title[page.lang] }}</h2>
 
                 <h3>{{ education.organization }}
                     {% if education.location %}
                     - {{ education.location }}
                     {% endif %}
                 </h3>
-                <h4>{{ education.period }}</h4>
+                <h4>
+                    {{ education.start }} -
+                    {% if education.end %}
+                    {{ education.end }}
+                    {% else %}
+                    current
+                    {% endif %}
+                </h4>
                 {% if education.content %}
                 <p style="margin: 5px 0">
                     {{ education.content }}
@@ -510,12 +516,12 @@ permalink: /resume/
             {% if section.layout == "volunteer" %}
             {% for volunteer in section.items %}
             <div class="volunteer">
-                <h2>{{ volunteer.title }}</h2>
+                <h2>{{ volunteer.title[page.lang] }}</h2>
 
-                <h3>{{ volunteer.organization }}</h3>
+                <h3>{{ volunteer.organization[page.lang] }}</h3>
 
-                <p>{{ volunteer.content }}
-                    {% if volunteer.location || volunteer.period %}
+                <p>{{ volunteer.content[page.lang] }}
+                    {% if volunteer.location or volunteer.period %}
                     <br>{{ volunteer.period }}
                     {{ volunteer.location }}
                     {% endif %}
@@ -535,7 +541,7 @@ permalink: /resume/
                     {% for j in (0..lineCountMinus1) %}
                     {% assign pos = lineStart | plus: j %}
                     <li>
-                        {{ section.items[pos] }}
+                        {{ section.items[pos][page.lang] }}
                     </li>
                     {% endfor %}
                 </ul>

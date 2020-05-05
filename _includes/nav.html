@@ -1,27 +1,54 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+{% assign i18n = site.data.translation %}
 
-        <div class="navbar-header page-scroll">
-            <a class="navbar-brand page-scroll"
-               href="/#page-top"
-               title="{{ site.title }}">
-                <img src="/assets/images/logo.svg" alt="{{ site.title }} Logo"/>
-                <h1 style="display: inline; font-size: inherit;">{{ site.title }}</h1>
+{% if(page.lang) %}
+{% assign lang = page.lang  %}
+{% else %}
+{% assign lang = 'pt' %}
+{% endif %}
+
+{% assign parts = page.url | split: '/' %}
+
+{% assign class_blog = 'none' %}
+{% assign class_project = 'none' %}
+
+{% if parts contains 'blog' %}
+  {% assign class_blog = 'active' %}
+  {% assign class_project = 'none' %}
+{% endif %}
+{% if parts contains 'projects' %}
+  {% assign class_blog = 'none' %}
+  {% assign class_project = 'active' %}
+{% endif %}
+
+<nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a href="{{ site.baseurl }}/{{lang}}" class="navbar-brand">
+                <img alt="{{ site.title }}" src="/assets/images/profile.jpg">
+<!--                <img src="/assets/images/logo.svg" alt="{{ site.title }} Logo"/>-->
+                <h1>{{ site.title }}</h1>
             </a>
         </div>
         <ul class="nav navbar-nav navbar-right navbar-collapse">
-            <li>
-                <a href="/#about">About</a>
+            <li class="{{ class_blog }}">
+                <a href="{{ site.baseurl }}/blog">{{i18n.blog[lang]}}</a>
             </li>
-            <!--<li>
-                <a href="/#projects">Projects</a>
-            </li>-->
-            <li>
-                <a href="/#blog">Blog</a>
+            <li class="{{ class_project }}">
+                <a href="{{ site.baseurl }}/{{lang}}/projects">
+                    {{i18n.projects[lang]}}
+                </a>
             </li>
             <li>
-                <a href="/resume" target="_blank">Resume</a>
+                <a href="{{ site.baseurl }}/{{lang}}/resume" target="_blank">{{i18n.resume[lang]}}</a>
+            </li>
+            <li class="icon">
+                <a href="{{ site.baseurl }}/pt" title="Ver em Português"
+                   class="{%if lang != 'pt' %} low-opacity {% endif %}">
+                    PT
+                </a>
+                <a href="{{ site.baseurl }}/en" title="View in English"
+                   class="{%if lang != 'en' %} low-opacity {% endif %}">
+                    EN
+                </a>
             </li>
         </ul>
-    </div>
 </nav>

@@ -1,0 +1,19 @@
+{% assign i18n = site.data.translation %}
+
+<section id="projects">
+    <h2 class="section-heading">{{ i18n.latestProjects[page.lang] }}</h2>
+
+    <div class="row">
+    {% for project in site.categories['projects'] sort:"date" | reverse | limit: 2 %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+    </div>
+
+    <div class="row">
+    {% for project in site.categories['projects'] sort:"date" | reverse | offset: 2 | limit: 2 %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+    </div>
+
+    <a href="{{ site.baseurl }}/{{ page.lang }}/projects" class="show-all">{{ i18n.showAll[page.lang] }}...</a>
+</section>

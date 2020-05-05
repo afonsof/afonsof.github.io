@@ -1,0 +1,35 @@
+resume:
+  pt: Currículo
+  en: Resume
+
+blog:
+  pt: Blog
+  en: Blog
+
+projects:
+  pt: Projetos
+  en: Projects
+
+about:
+  pt: Sobre mim
+  en: About me
+
+recentArticles:
+  pt: Artigos recentes
+  en: Recent articles
+
+latestProjects:
+  pt: Últimos projetos
+  en: Latest projects
+
+showAll:
+  pt: Mostrar todos
+  en: Show all
+
+youtube:
+  pt: Vídeo
+  en: Video
+
+article:
+  pt: Artigo
+  en: Article

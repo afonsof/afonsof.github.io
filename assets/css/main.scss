@@ -1,9 +1,21 @@
 ---
 ---
-$primary: #37474F;
-$secondary: #78909C;
-$secondary-dark: #333;
 
-@import "font-awesome";
+$font-size-sm: 16px;
+$font-size-md: 20px;
+$font-size-md-3: 26px;
+$font-size-md-2: 36px;
+$font-size-lg: 44px;
+
+$title-font-weight: 400;
+$default-font-weight: 300;
+
+$primary: rgba(255, 255, 255, 0.6);
+$secondary: rgb(255, 255, 255);
+$dark-gray: rgba(255,255,255,.1);
+$medium-gray: rgba(255, 255, 255, 0.3);
+
+$page-background: #262D33;
+
 @import "bootstrap";
 @import "style";

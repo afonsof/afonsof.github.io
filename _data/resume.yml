@@ -1,262 +1,414 @@
-  location: ""
+contactInfo:  "
+<a href=\"tel:+5524998449119\">+55 24 99844 9119</a><br>
+<a href=\"mailto:afonso.franca@gmail.com\">afonso.franca@gmail.com</a><br>
+<a href=\"http://afonsof.com\">afonsof.com</a> • <a href=\"https://github.com/afonsof\">github.com/afonsof</a><br>
+<a href=\"https://linkedin.com/in/afonsof\">linkedin.com/in/afonsof</a>"
 
-  contactInfo:  "
-  <a href=\"tel:+5524998449119\">+55 24 99844 9119</a><br>
-  <a href=\"mailto:afonso.franca@gmail.com\">afonso.franca@gmail.com</a><br>
-  <a href=\"http://afonsof.com\">afonsof.com</a> • <a href=\"https://github.com/afonsof\">github.com/afonsof</a><br>
-  <a href=\"https://linkedin.com/in/afonsof\">linkedin.com/in/afonsof</a>"
+title:
+  en: Full-stack Developer and Agile Tech Lead
+  pt: Desenvolvedor Full-stack e Agile Tech Lead
 
-  tagline: "Hi, I'm Afonso, a curious 33-year-old man who lives in Rio and
-           works as Tech Lead and Full-Stack Dev at the great <a href=\"http://gupy.io\">gupy.io</a>!"
+tagline:
+  en: "Hi, I'm Afonso, a curious 36-year-old man who lives in São Paulo
+       and works as Tech Lead and Full-Stack Dev at the great startup
+       <a href=\"http://gupy.io\">Gupy</a>!"
+  pt: "Oi, eu sou Afonso, um cara de 36 anos de idade que vive em São Paulo
+       e trabalaha como Tech Lead e Dev Full-Stack na incrível startup
+       <a href=\"http://gupy.io\">Gupy</a>!"
 
-  intro: "I love coding and I've been doing this for fun since I was a teenager.
-  
-          Already ventured into startups in USA and Canada and recently decided to come back to Brazil.
+intro:
+  en: "I love coding and I've been doing this for fun since I was a teenager.
+       Already ventured into startups in USA and Canada but decided to come back to Brazil.
+       Also an MBA in Project Management from <a href=\"http://fgv.br\">FGV</a> and
+       graduated in Computer Science at <a href=\"http://ubm.br/\">UBM</a>.
+       Here you can know more about me and my job. Enjoy!"
+  pt: "Eu amo codar e tenho feito isso desde que eu era adolescente.
+       Já me aventurei em startups nos EUA e Canadá mas decidi que o Brasil é o meu lugar.
+       Também sou MBA em Gerenciamento de Projetos pela <a href=\"http://fgv.br\">FGV</a> e
+       bacharel em Ciência da computação pela <a href=\"http://ubm.br/\">UBM</a>.
+       Aqui você pode saber mais sobre mim e meu trabalho. Divirta-se!"
 
-          Also an MBA in Project Management from <a href=\"http://fgv.br\">FGV</a> and
-          graduated in Computer Science at <a href=\"http://ubm.br/\">UBM</a>.
+sections:
 
-          Here you can know more about me and my job. Enjoy!"
+  - title:
+      en: Main skills
+      pt: Principais habilidades
+    type: keyValuePair
+    layout: titled3Columns
+    items:
+      - key:
+          en: Software Craftsman # since 2001 when I started to study programming
+          pt: Criador de Software
+        value:
+          en: I've been creating software for 19 years. Started using <b>PHP</b>,
+              passing through <b>.NET</b> and <b>Python</b>. Nowadays I enjoy
+              <b>Javascript</b> and <b>Node JS</b>.
+          pt: Tenho criado software há 19 anos. Comecei usando <b>PHP</b>,
+              passei por <b>.NET</b> e <b>Python</b>. Atualmente me divirto com
+              <b>Javascript</b> and <b>Node JS</b>.
+        icon: full-stack.svg
 
-  sections:
+      - key:
+          en: Agile Enthusiast
+          pt: Entusiasta do Agile
+        value:
+          en: I've already worn the hat of <b>Scrum Master</b> and <b>Product Owner</b>.
+              Already used Scrum and Kanban.
+              Mix and match all of them in favor of <b>Agile</b>"
+          pt: Já trabalhei como <b>Scrum Master</b> en <b>Product Owner</b>.
+              Já usei Scrum e Kanban.
+              Misturo um pouco de tudo em prol da <b>Agilidade</b>.
+        icon: agile.svg
 
-    - title:  Main Skills
-      type: keyValuePair
-      layout: titled3Columns
-      items:
-        - key: Software Craftsman # since 2001 when I started to study programming
-          value: I've been creating software for 16 years. Started using <b>PHP</b>, passing through <b>.NET</b> and
-                 nowadays I enjoy <b>Javascript</b> and <b>Python</b>.
-          icon: full-stack.svg
+      - key:
+          en: Software Engineer
+          pt: Engenheiro de Software
+        value:
+          en: I know how it is important to use <b>TDD</b>, <b>Refactoring</b> and <b>Code Review</b>
+              in order to create a profitable software.
+          pt: Sei o quão importante usar <b>TDD</b>, <b>refatorar</b> e fazer <b>Code Review</b>
+              para criar software que funciona.
+        icon: engineering.svg
 
-        - key: Agile Enthusiast
-          value: I've already worn the hat of <b>Scrum Master</b> and <b>Product Owner</b>.
-                 In these days also using some <b>Kanban</b> principles."
-          icon: agile.svg
+  - title:
+      en: Highlights
+      pt: Destaques
+    type: array
+    layout: list3Columns
+    items:
+      - NodeJs / Javascript / ES20??
+      - HTML5 / CSS3
+      - React / Redux / Saga /webpack
+      - Postgres / MongoDb
+      - Elastic / Redis
+      - Agile / Scrum / Kanban
+      - C# / Python
+      - DDD / Clean Architecture
+      - Design Patterns
+      - TDD / Code Coverage
+      - GIT / AWS / docker
+      - Jenkins / npm / CI tools
 
-        - key: Software Engineer
-          value: I know how it is important to use <b>TDD</b>, <b>Refactoring</b> and <b>Code Review</b>
-                 in order to create a profitable software.
-          icon: engineering.svg
+  - title:
+      en: Work experiences
+      pt: Experiência profissional
+    type: occupationList
+    layout: work
+    items:
+      - organization: Gupy
+        start: 2017
+        occupations:
+          - title:
+              en: Software Engineer and Tech Lead - São Paulo - Brazil
+              pt: Engenheiro de Software e Líder Técnico - São Paulo - Brazil
+            tasks:
+              - title:
+                  en: HR Software
+                  pt: Software para RH
+                tags:
+                  - Javascript
+                  - NodeJs
+                  - React + Redux
+                  - Postgresql
+                  - ElasticSearch
+                  - SQS
+                  - AWS
 
-    - title: Highlights
-      type: array
-      layout: list3Columns
-      items:
-        - Javascript / ES2015 / ES2016...
-        - NodeJS
-        - HTML5
-        - CSS3 / SASS / Precompilers
-        - Agile
-        - Scrum
-        - Kanban
-        - eXtreme Programming
-        - Python / Django
-        - C# / ASP.NET MVC
-        - Code Coverage
-        - Design Patterns
-        - TDD
-        - GIT
-        - Jenkins / gulp / grunt / npm
+      - organization: Veriz Tecnologia
+        start: 2016
+        end: 2017
+        occupations:
+          - title:
+              en: Software Engineer - Brasilia - Brazil (remote job)
+              pt: Engenheiro de Software - Brasilia - Brazil (remoto)
+            tasks:
+              - title:
+                  en: Email compliance tool
+                  pt: Ferramenta para compliance de Email
+                tags:
+                  - Javascript
+                  - AngularJs
+                  - Sass
+                  - MongoDb
+                  - Redis
+                  - ElasticSearch
+                  - RabbitMQ
+                  - .NET
+                  - AWS
 
+      - organization: EventMobi
+        start: 2016
+        end: 2016
+        occupations:
+          - title:
+              en: Software Engineer - Toronto - ON
+              pt: Engenheiro de Software - Toronto - ON
+            tasks:
+              - title:
+                  en: Internal CMS
+                  pt: CMS Interno
+                tags:
+                  - AngularJs
+                  - Python
+                  - Django
 
-    - title: Work Experiences
-      type: occupationList
-      layout: work
-      items:
-      
-        - organization: Gupy.io
-          period: 2017-current
-          occupations:
-            - title: Software Engineer and Tech Lead - São Paulo - Brazil (remote job)
-              tasks:
-                - title: Recruiting software
-                  tags:
-                    - Javascript
-                    - NodeJS
-                    - React + Redux
-                    - Postgresql
-                    - ElasticSearch
-                    - SQS
-                    - AWS
+      - organization: Scalable Path
+        start: 2015
+        end: 2016
+        occupations:
+          - title:
+              en: Software Engineer - San Francisco - CA (remote job)
+              pt: Engenheiro de Software - San Francisco - CA (remoto)
+            tasks:
+              - title:
+                  en: Retail stores software
+                  pt: Software para lojas de departamento
+                tags:
+                  - Javascript
+                  - AngularJs
+                  - Redis
+                  - MySQL
+                  - Python
+                  - Django
+                  - AWS
 
-        - organization: Veriz Tecnology
-          period: 2016-2017
-          occupations:
-            - title: Software Engineer - Brasilia - Brazil (remote job)
-              tasks:
-                - title: Email compliance tool
-                  tags:
-                    - Javascript
-                    - AngularJs
-                    - Sass
-                    - MongoDb
-                    - Redis
-                    - ElasticSearch
-                    - RabbitMQ
-                    - .NET
-                    - AWS
-                    
-        - organization: EventMobi
-          period: 2016-2016
-          occupations:
-            - title: Software Engineer - Toronto - ON
-              tasks:
-                - title: Internal CMS
-                  tags:
-                    - AngularJs
-                    - Python
-                    - Django
+      - organization: Diebold Inc.
+        start: 2006
+        end: 2015
+        location: São Paulo -  Brazil
+        occupations:
+          - title:
+              en: Tech Lead (2009-2015)
+              pt: Líder Técnico (2009-2015)
+            tasks:
+              - title:
+                  en: Bank Fraud prevention software
+                  pt: Software de prevenção a fraudes bancárias
+                tags:
+                  - Agile
+                  - Javascript
+                  - .NET
+                  - SQL Server
+                  - jQuery
+                  - Python
+                  - TDD
+                  - Design Patterns
+                  - Code coverage
+              - title:
+                  en: OAuth based Authentication Gateway
+                  pt: Gateway de autênticação OAuth
+                tags:
+                  - Agile
+                  - Android
+                  - IOS
+                  - Python
+                  - Django
 
-        - organization: Scalable Path
-          period: 2015-2016
-          occupations:
-            - title: Software Engineer - San Francisco - CA (remote job)
-              tasks:
-                - title: Help to create an innovative technology
-                         that allows retailers to empower their associates
-                         delivering the right information to the right person.
-                         It's possible to create customised rules
-                         and is integrated with 3rd party services
-                         like Instagram, Vend, Square, Zoho and Zendesk.
-                  tags:
-                    - Javascript
-                    - AngularJs
-                    - Redis
-                    - MySQL
-                    - Python
-                    - Django
-                    - AWS
+          - title:
+              en: Software Engineer (2006-2009)
+              pt: Engenheiro de Software (2006-2009)
+            tasks:
+              - title:
+                  en: Company intranet
+                  pt: Intranet da empresa
+                tags:
+                  - .NET
+                  - Javascript
+                  - SQL Server
+                  - jQuery
 
-        - organization: Diebold Inc.
-          period: 2006-2015
-          location: São Paulo -  Brazil
-          occupations:
-            - title: Technical Team Lead (2009-2015)
-              tasks:
-                - title: Fraud prevention console used to protect 50M brasilians against frauds
-                  tags:
-                    - Agile
-                    - 9 developers
-                    - Vanilla Javascript
-                    - .NET
-                    - SQL Server
-                    - jQuery
-                    - Python
-                    - TDD
-                    - Design Patterns
-                    - Code coverage
-                - title: OAuth based Authentication Gateway
-                  tags:
-                    - Agile
-                    - 7 developers
-                    - Android
-                    - IOS
-                    - Python
-                    - Django
+              - title:
+                  en: Social Network Malware finder
+                  pt: Encontrador de malwares em redes sociais
+                tags: Python
 
-            - title: Software Engineer (2006-2009)
-              tasks:
-                - title: Intranet
-                  tags:
-                    - .NET
-                    - Javascript
-                    - SQL Server
-                    - jQuery
+              - title:
+                  en: Javascript based Machine Identificator
+                  pt: Identificador de máquina baseado em Javascript
+                tags: Javascript
 
-                - title: Social Network Malware finder
-                  tags: Python
+              - title:
+                  en: Site classifier
+                  pt: Classificador de sites
+                tags:
+                  - Bayesian network
+                  - Python
 
-                - title: Javascript based Machine Identification
-                  tags: Javascript
+      - organization: Flextronics International
+        start: 2005
+        end: 2006
+        occupations:
+          - title: IT Trainee
+            tasks:
+              - title:
+                  en: Maintenance of internal software
+                  pt: Manutenção de software intero
+                tags:
+                  - Access
+                  - C#
 
-                - title: Site classifier
-                  tags:
-                    - Bayesian network
-                    - Python
+  - title:
+      en: Education
+      pt: Formação acadêmica
+    type: occupationList
+    layout: education
+    items:
+      - start: 2008
+        end: 2011
+        title:
+          en: MBA in Project Management
+          pt: MBA em Gerenciamento de projetos
+        organization: FGV – Fundação Getúlio Vargas
 
-        - organization: Flextronics International
-          period: 2005-2006
-          occupations:
-            - title: IT Trainee
-              tasks:
-                - title: Maintenance of internal projects
-                  tags: PHP
+      - start: 2002
+        end: 2006
+        title:
+          en: Bachelor of Science Degree, Computer Science
+          pt: Bacharel em Ciência da computação
+        organization: UBM – Centro universitário de Barra Mansa
 
+  - title:
+      en: Community Contributions and Speaks
+      pt: Contribuições para a comunidade e palestras
+    type: occupationList
+    layout: volunteer
+    items:
+      - title:
+          en: Speaker in congresses em 2017
+          pt: Palestrante em congressos em 2017
+        organization:
+          en: Automating a house spending less using Google Assistant and NodeJS
+          pt: Automatizando uma casa gastando pouco usando Google Assistant e NodeJS
+        content:
+          en: "Places: GDG Sul Fluminense Meetup, GDG Dev Fest Centro Sul and GDG Dev Fest Campinas"
+          pt: "Locais: Meetup GDG Sul Fluminense, GDG Dev Fest Centro Sul e GDG Dev Fest Campinas"
 
-    - title: Education
-      type: occupationList
-      layout: education
-      items:
-        - period: 2008-2011
-          title: MBA in Project Management
-          organization: FGV – Getúlio Vargas Foundation
+      - title:
+          en: Creator of popular Jenkins theme
+          pt: Criador do popular tema de Jenkins
+        organization:
+          en: github.com/afonsof/jenkins-material-theme
+          pt: github.com/afonsof/jenkins-material-theme
+        content:
+          en: "Project: Jenkins Material Theme"
+          pt: "Projeto: Jenkins Material Theme"
 
-        - period: 2002-2006
-          title: Bachelor of Science Degree, Computer Science
-          organization: UBM – University Center of Barra Mansa
+      - title:
+          en: Community Event Promoter
+          pt: Organizador de evento na comunidade
+        organization:
+          en: "Google Developer Group event: Rio Sul Valley Dev Summit 2017"
+          pt: "Evento do Google Developer Group: Rio Sul Valley Dev Summit 2017"
+        content:
+          en: Event for 200 people in Volta Redonda city
+          pt: Evento para 200 pessoas na cidade de Volta Redonda
 
+      - title:
+          en: Guest in Software Development podcast
+          pt: Convidado em podcast de desenvolvimento de software
+        organization:
+          en: Dev na Estrada (devnaestrada.com.br)
+          pt: Dev na Estrada (devnaestrada.com.br)
+        content:
+          en: "Episodes: #48 The Developer Salaries • #46 - The life in a startup • #35 Why learn English?"
+          pt: "Episódios: #48 Salário do Desenvolvedor • #46 - A vida em uma startup • #35 Inglês pra quê?"
 
-    - title: Community Contributions and Speaks
-      type: occupationList
-      layout: volunteer
-      items:
-        - title: Speaker in congresses - 2017
-          organization: Automating a house spending less using Google Assistant and NodeJS
-          content: "Places: GDG Sul Fluminense Meetup, GDG Dev Fest Centro Sul, GDG Dev Fest Campinas"
-        
-        - title: Creator of the most used Jenkins in the World
-          organization: github.com/afonsof/jenkins-material-theme
-          content: "Project: Jenkins Material Theme"
-      
-        - title: Community Event Promoter
-          organization: "Google Developer Group event: Rio Sul Valley Dev Summit 2017"
-          content: Organized an event for 200 people.
+      - title:
+          en: Community Event Promoter and Presenter
+          pt: Organizador e apresentador de evento na comunidade
+        organization:
+          en: "Google Developer Group event: Web Dev Summit 2015"
+          pt: "Evento do Google Developer Group: Web Dev Summit 2015"
+        content:
+          en: Event for 200 people in Volta Redonda city
+          pt: Evento para 200 pessoas na cidade de Volta Redonda
 
-        - title: Guest in Software Development podcast
-          organization: Dev na Estrada (devnaestrada.com.br)
-          content: "Episodes: #48 The Developer Salaries • #46 - The life in a startup • #35 Why learn English?"
+      - title:
+          en: Community Leader
+          pt: Líder de comunidade
+        organization:
+          en: Youth Baptist Southern Rio 2008-2013
+          pt: Juventude Batista Sul Fluminense 2008-2013
+        content:
+          en: 24 fellowship and entertainment events of a group of 2,000 youths
+          pt: 24 eventos de comunhão e entretenimento para grupo de 2.000 jovens
 
-        - title: Community Event Promoter and Presenter
-          organization: "Google Developer Group event: Web Dev Summit 2015"
-          content: Organized an event for 200 people.
+  - title:
+      en: Honor and Awards
+      pt: Honra ao mérito
+    type: occupationList
+    layout: volunteer
+    items:
+      - title:
+          en: (3rd Place) UBM Hackathon 2017
+          pt: (3º Lugar) Hackathon UBM 2017
+        organization: UBM – Centro universitário de Barra Mansa
+        content:
+          en: "The team created a Smart City Bot capable of providing tips and information about bus
+               and garbage collector times, events in the city and more. It also understands problem
+               reporting where the user is able to set the location and problem details. The user also
+               receives notifications when the problem is solved by the State employee"
+          pt: "Equipe criou um bot de cidade inteligente capaz de fornecer dicas e informações sobre
+               horários de ônibus, caminhões de lixo, eventos na cidade etc.
+               O bot também é capaz de receber problemas com localização e detalhes.
+               O usuário recebe notificações quando o problema é resolvido."
 
-        - title: Community Leader
-          organization: Youth Baptist Southern Rio 2008-2013
-          content: Coordinated 24 fellowship and entertainment events of a group of 2,000 youths.
+  - title:
+      en: Conferences and Courses
+      pt: Conferências e cursos
+    type: array
+    layout: list2Columns
+    items:
+      - en: "Tech Meetups: Rio Sul Valley - Volta Redonda 2017"
+        pt: "Meetups técnicos: Rio Sul Valley - Volta Redonda 2017"
 
+      - en: "Tech Meetups: TorontoJS - Toronto 2016"
+        pt: "Meetups técnicos: TorontoJS - Toronto 2016"
 
-    - title: Honor and Awards
-      type: occupationList
-      layout: volunteer
-      items:
-        - title: (3rd Place) UBM Hackathon 2017
-          organization: UBM – University Center of Barra Mansa
-          content: "The team created a Smart City Bot capable of providing tips and information about bus
-                    and garbage collector times, events in the city and more. It also understands problem
-                    reporting where the user is able to set the location and problem details. The user also
-                    receives notifications when the problem is solved by the State employee"
-          
+      - en: "Conf: BrazilJS - Porto Alegre 2014/2015/2016/2017/2019"
+        pt: "Conf: BrazilJS - Porto Alegre 2014/2015/2016/2017/2019"
 
-    - title: Conferences and Courses
-      type: array
-      layout: list2Columns
-      items:
-        - "Tech Meetups: Rio Sul Valley - Volta Redonda 2017"
-        - "Tech Meetups: TorontoJS - Toronto 2016"
-        - "Conf: BrazilJS - Porto Alegre 2014/2015/2016/2017"
-        - "Course: Advanced English - San Francisco 2015"
-        - "Conf: BlackHat/DefCon - Las Vegas 2014/2015"
-        - "Conf: Agile Trends - 2014/2015"
-        - "Meetup: Front-end - Campinas 2015"
-        - "Meetup: SorocabaJS 2015"
-        - "Conf: GDG Dev Fest - Sudeste 2014"
-        - "Conf: Tableless Conference 2014"
-        - "Conf: Chrome Dev Summit - Mountain View 2013"
-        - "Conf: Visual Studio Summit - São Paulo 2013"
-        - "Conf: Agile Brazil - Brasilia 2013"
-        - "Course: Management 3.0 - Agile Leadership Practices"
-        - "Course: Certified Lean-Kanban"
-        - "Course: Certified Scrum Product Owner"
-        - "Course: Certified Scrum Master"
-        - "Certification: MCP - HTML5 with Js and CSS3"
+      - en: "Course: Advanced English - San Francisco 2015"
+        pt: "Curso de Inglês Avançado - San Francisco 2015"
+
+      - en: "Conf: BlackHat/DefCon - Las Vegas 2014/2015"
+        pt: "Conf: BlackHat/DefCon - Las Vegas 2014/2015"
+
+      - en: "Conf: Agile Trends - 2014/2015"
+        pt: "Conf: Agile Trends - 2014/2015"
+
+      - en: "Meetup: Front-end - Campinas 2015"
+        pt: "Meetup: Front-end - Campinas 2015"
+
+      - en: "Meetup: SorocabaJS 2015"
+        pt: "Meetup: SorocabaJS 2015"
+
+      - en: "Conf: GDG Dev Fest - Sudeste 2014"
+        pt: "Conf: GDG Dev Fest - Sudeste 2014"
+
+      - en: "Conf: Tableless 2014"
+        pt: "Conf: Tableless 2014"
+
+      - en: "Conf: Chrome Dev Summit - Mountain View 2013"
+        pt: "Conf: Chrome Dev Summit - Mountain View 2013"
+
+      - en: "Conf: Visual Studio Summit - São Paulo 2013"
+        pt: "Conf: Visual Studio Summit - São Paulo 2013"
+
+      - en: "Conf: Agile Brazil - Brasilia 2013"
+        pt: "Conf: Agile Brazil - Brasilia 2013"
+
+      - en: "Course: Management 3.0 - Agile Leadership Practices"
+        pt: "Curso Gestão 3.0 - Práticas de liderança ágil"
+
+      - en: "Course: Certified Lean-Kanban"
+        pt: "Curso: Certified Lean-Kanban"
+
+      - en: "Course: Certified Scrum Product Owner"
+        pt: "Curso: Certified Scrum Product Owner"
+
+      - en: "Course: Certified Scrum Master"
+        pt: "Curso: Certified Scrum Master"
+
+      - en: "Certification: MCP - HTML5 with Js and CSS3"
+        pt: "Certificação: MCP - HTML5 with Js and CSS3"

@@ -1,27 +1,15 @@
-<!-- Team Section -->
-<section id="blog" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Blog</h2>
-                <h3 class="section-subheading text-muted">Mirroring my ideas...</h3>
-            </div>
-        </div>
+<section id="blog" class="internal-list">
+    {% for post in site.categories['blog'] %}
+        {% if post.type == 'youtube' %}
+            {% assign image_url = 'https://i.ytimg.com/vi/' | append: post.youtube_id | append: '/maxresdefault.jpg' %}
+            {% assign url = 'https://www.youtube.com/watch?v=' | append: post.youtube_id %}
+            {% assign target = '_blank' %}
+        {% else %}
+            {% assign image_url = null %}
+            {% assign url = post.url | prepend: site.baseurl %}
+            {% assign target = '_self' %}
+    {% endif %}
 
-        <div class="row">
-            {% for post in site.categories['blog'] %}
-            <div class="col-md-12 col-lg-10 col-lg-offset-1 post" style="margin-bottom: 80px">
-                <h3 class="entry-title" style="margin-bottom: 30px; font-size: 30px">
-                    <a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a>
-                </h3>
-
-                <p class="large text-muted" style="font-size: 22px !important;">
-                    {{ post.excerpt }}
-                </p>
-                <a href="{{ post.url | prepend: site.baseurl }}"
-                   class="more-link">Continue reading...</a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
+        {% include feed-article.html post=post image_url=image_url url=url target=target %}
+    {% endfor %}
 </section>
