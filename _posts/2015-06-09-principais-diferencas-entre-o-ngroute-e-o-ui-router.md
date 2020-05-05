@@ -52,13 +52,13 @@ criadas baseadas na url que está sendo acessada.
 
 **ngRoute:** Não é trivial saber em que rota se está.  
 **ui-router:** É possível determinar se você está num estado ou num estado pai para ajustar algum componente da
-interface gráfica, como por exemplo detacar um item de menu ativo. Para isso basta expor a variável `$state` para o
+interface gráfica, como por exemplo destacar um item de menu ativo. Para isso basta expor a variável `$state` para o
 `$rootScope` ao configurar a aplicação.
 
 ## Conclusão
 
 Sempre senti que faltava algo no `ngRoute`. Várias vezes tentei contornar as limitações dele usando $rootScope e
-outros workarounds. Logo minha conclusão foi a mesma de todo mundo: Use o `ngRoute` em aplicações pequenas e simples.
+outros workarounds. Logo, minha conclusão foi a mesma de todo mundo: Use o `ngRoute` em aplicações pequenas e simples.
 Se perceber que o cenário pode vir a ficar mais complexo, não pense duas vezes em trocar para o `ui-router`.
 
 ## Links

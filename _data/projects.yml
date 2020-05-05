@@ -1,0 +1,81 @@
+- title:
+    pt: Jubasulf
+    en: Jubasulf
+  subtitle:
+    en: Logo and website
+    pt: Logo e site
+  date: 2008-01-01
+  # ext_url: http://jubasulf.com.br
+  img: jubasulf.jpg
+
+- title:
+    pt: G-Lock AntiHacker
+    en: G-Lock AntiHacker
+  subtitle:
+    en: Created user interface in Windows MFC
+    pt: Criei a interface do usuário em Windows MFC
+  date: 2008-06-01
+  # ext_url: http://www.gastecnologia.com/
+  img: glock.jpg
+
+- title:
+    pt: grunt-qunit-cov
+    en: grunt-qunit-cov
+  subtitle:
+    pt: Plugon do Grunt para unit tests com cobertura
+    en: Grunt plugin for unit test with coverage
+  date: 2013-12-06
+  ext_url: https://github.com/afonsof/grunt-qunit-cov
+  img: grunt-qunit-cov.jpg
+
+- title:
+    pt: BayesSharp
+    en: BayesSharp
+  subtitle:
+    en: Simple naive bayes text classifier in C#
+    pt: Classificador de texto simples usando Naive Bayes em C#
+  date: 2015-05-25
+  ext_url: https://github.com/afonsof/BayesSharp
+  img: bayessharp.jpg
+
+- title:
+    pt: EvolveSharp
+    en: EvolveSharp
+  subtitle:
+    en: Genetic algorithm framework in C#
+    pt: Frameword de algorítmo genético em C#
+  date: 2015-05-25
+  ext_url: https://github.com/afonsof/EvolveSharp
+  img: evolvesharp.png
+
+- title:
+    pt: VR Dev Summit 2015
+    en: VR Dev Summit 2015
+  subtitle:
+    en: Co-organized event in Rio for 200 devs
+    pt: Co-organizei evento para 200 devs em Volta Redonda
+  date: 2015-05-26
+  ext_url: http://vr.devsummit.com.br
+  img: webdevsummit.jpg
+
+- title:
+    en: jenkins-material-theme
+    pt: jenkins-material-theme
+  subtitle:
+    en: Awesome Jenkins Material Design theme
+    pt: Incrível tema para Jenkins baseado no Material Design
+  date: 2015-12-07
+  ext_url: https://github.com/afonsof/jenkins-material-theme
+  img: jenkins-material-theme.png
+
+- title:
+    pt: GBWCD - Console de combate a fraude bancária
+    en: Fraud Fighting Console GBWCD
+  subtitle:
+    pt: Applicativo web e processador do backend
+    en: Web App and Backend event processor
+  date: 2013-12-01
+  # ext_url: http://www.gastecnologia.com/
+  img: gbwcd.jpg
+
+

@@ -4,8 +4,17 @@
     <h2 class="section-heading">{{ i18n.recentArticles[page.lang] }}</h2>
     <ul class="article-list">
         {% for post in site.categories['blog'] | sort:"date" | reverse | limit: 6 %}
+
+        {% if post.type == 'youtube' %}
+            {% assign url = 'https://www.youtube.com/watch?v=' | append: post.youtube_id %}
+            {% assign target = '_blank' %}
+        {% else %}
+            {% assign url = post.url | prepend: site.baseurl %}
+            {% assign target = '_self' %}
+        {% endif %}
+
         <li class="article-item">
-            <a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">
+            <a href="{{ url }}" rel="bookmark" target="{{ target }}">
                 <div>{{ post.title }}</div>
                 <div>{{ post.date | date: "%d/%m/%y" }}</div>
             </a>

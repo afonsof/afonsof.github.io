@@ -8,7 +8,7 @@ image: http://afonsof.com/wp-content/uploads/2015/06/google-photos.jpg
 categories:
 - blog
 ---
-Desde de que era criança gosto de organizar coisas. Me lembro de ter um caderno não na época dos 8-bit em que registrava
+Desde que era criança gosto de organizar coisas. Lembro-me de ter um caderno não na época dos 8-bit em que registrava
 todos os jogos de vídeo game que jogava.
 <!--more-->
 
@@ -18,7 +18,7 @@ Depois de um desastre em 2005 em que perdi todos os meus dados, criei mecanismos
 da minha vida fossem preservadas.
 
 No começo era difícil, muita coisa pra organizar pouco espaço em disco e baixa velocidade de transferência. Aos poucos
-as coisas foram facilitando. CD ROM, DVD, HDs externos e finalmente a núvem com Dropbox e depois o Google Drive. Quando
+as coisas foram facilitando. CD ROM, DVD, HDs externos e finalmente a nuvem com Dropbox e depois o Google Drive. Quando
 percebi já estava quase tudo na rede e o meu trabalho com backup era quase nulo. A não ser por fotos, músicas e filmes.
 
 Para resolver o problema das músicas foi relativamente fácil. Nunca fui um cara muito musical mas tinha milhares de
@@ -31,7 +31,7 @@ Um problema a menos para se preocupar, mas e os filmes? Também tinha uma biblio
 que mantê-los? Dificilmente vejo um filme duas vezes e com a velocidade da Internet de hoje posso fazer streaming deles
 através de diversos serviços Netflix like diretamente na minha TV. Então foi fácil abrir mão deles também.
 
-Só faltam mesmo as fotos. Estas não são descartáveis, tenho aproximadamente 30.000 delas e nenhum serviço de núvem
+Só faltam mesmo as fotos. Estas não são descartáveis, tenho aproximadamente 30.000 delas e nenhum serviço de nuvem
 gratuito suportaria 150GB em arquivos. Além disso, mesmo que suportasse, não conseguiria acessá-las de forma fácil e
 não conseguiria ver em uma timeline. Para estas então, continuava com backup no bom e velho HD e tinha uma cópia de
 baixa resolução no Picasa Web posteriormente conhecido como Google+ Fotos para um caso extremo de perder as minhas

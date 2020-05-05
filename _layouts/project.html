@@ -2,28 +2,17 @@
 layout: default
 ---
 
+{% if project %}
+{% assign p = project %}
+{% else %}
+{% assign p = page %}
+{% endif %}
+{% assign p = project %}
+
 <div class="container" style="padding-top: 150px;">
     <div class="row">
         <div class="col-lg-12">
-
-            <div>
-
-                <img src="/assets/images/posts/{{ page.img }}" style="width: 80%; max-width: 600px; margin-bottom: 20px">
-
-                <h1 class="entry-title">
-                    {{ page.title }}
-                </h1>
-
-                <p class="text-muted"
-                   style="margin-bottom: 40px; font-size: 25px; font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-style: italic">
-                    {{ page.subtitle }}
-                </p>
-
-
-                <a class="btn btn-default" href="{{ page.ext_url }}" target="_blank">
-                    Acessar
-                </a>
-            </div>
+            {% include project-card.html project=p %}
         </div>
     </div>
 </div>

@@ -1,16 +1,17 @@
 {% assign i18n = site.data.translation %}
+{% assign projects = site.data.projects | sort:"date" | reverse %}
 
 <section id="projects">
     <h2 class="section-heading">{{ i18n.latestProjects[page.lang] }}</h2>
 
     <div class="row">
-    {% for project in site.categories['projects'] sort:"date" | reverse | limit: 2 %}
+        {% for project in projects sort:"date" | reverse | limit: 2 %}
         {% include project-card.html project=project %}
     {% endfor %}
     </div>
 
     <div class="row">
-    {% for project in site.categories['projects'] sort:"date" | reverse | offset: 2 | limit: 2 %}
+    {% for project in projects sort:"date" | reverse | offset: 2 | limit: 2 %}
         {% include project-card.html project=project %}
     {% endfor %}
     </div>

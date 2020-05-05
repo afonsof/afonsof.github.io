@@ -91,7 +91,7 @@ Esta abordagem é bastante válida se considerarmos a criação de constantes ma
 valor de pi, a constante de gravidade ou outra coisa do tipo.
 
 As constantes funcionam como o `let`, isto quer dizer que dentro do mesmo escopo de bloco também não podem ser
-redeclaradas e não tem valiade fora dele.
+redeclaradas e não tem validade fora dele.
 
 Por enquanto o único browser que implementa completamente a palavra-chave `const` é o IE11, porém isto não quer
 dizer que não funciona em alguns outros browsers. No Chrome por exemplo ainda falta eles implementarem o tratamento

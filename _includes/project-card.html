@@ -1,12 +1,20 @@
 <div class="col-md-6 col-sm-12 project-card">
+    {% if project.ext_url %}
     <a href="{{ project.ext_url }}">
+    {% endif %}
         <div class="portfolio-link">
             <img src="/assets/images/posts/{{ project.img }}" class="img-responsive img-centered" alt="">
         </div>
         <div class="portfolio-caption">
-            <h4>{{ project.title }}</h4>
-            <p>{{ project.subtitle }}</p>
+            <h4>
+                {{ project.title[page.lang] }}
+                {% if project.ext_url == null %}
+                    (offline)
+                {% endif %}
+            </h4>
+            <p>{{ project.subtitle[page.lang] }}</p>
         </div>
+    {% if project.ext_url %}
     </a>
-    <a href="{{ project.url }}" style="color: transparent">.</a>
+    {% endif %}
 </div>

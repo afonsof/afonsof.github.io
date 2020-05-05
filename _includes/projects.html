@@ -1,18 +1,20 @@
 {% assign i18n = site.data.translation %}
+{% assign projects = site.data.projects | sort:"date" | reverse %}
 
 <section id="projects">
-    {% assign projects = site.categories['projects'] sort:"date" | reverse %}
     {% assign size = projects | size %}
 
     {% for i in (0..size) %}
     {% assign modulo = i | modulo: 2 %}
-    {% if modulo == 1 %}
+    {% if modulo == 0 %}
     <div class="row">
         {% assign project=projects[i] %}
-        {% include project-card.html project=project %}
-        {% assign second = i | plus: 1 %}
-        {% assign project=projects[second] %}
-        {% include project-card.html project=project %}
+        {% if project %}
+            {% include project-card.html %}
+            {% assign second = i | plus: 1 %}
+            {% assign project=projects[second] %}
+            {% include project-card.html %}
+        {% endif %}
     </div>
     {% endif %}
     {% endfor %}

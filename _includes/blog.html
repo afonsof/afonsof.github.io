@@ -8,7 +8,7 @@
             {% assign image_url = null %}
             {% assign url = post.url | prepend: site.baseurl %}
             {% assign target = '_self' %}
-    {% endif %}
+        {% endif %}
 
         {% include feed-article.html post=post image_url=image_url url=url target=target %}
     {% endfor %}
