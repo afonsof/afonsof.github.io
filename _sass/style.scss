@@ -371,6 +371,8 @@ section {
 footer {
   background-color: $dark-gray;
   padding: 25px 0;
+  //position: absolute;
+  //bottom: 0;
 
   span.copyright {
     text-transform: none;
@@ -588,4 +590,17 @@ b, strong {
 
 .internal-list {
   padding-top: 0 !important;
+}
+
+.brilhou-posts {
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.carousel-control span:first-child {
+  top: 50%;
+  position: absolute;
+  margin-left: -10px;
+  font-size: 60px;
+  margin-top: -70px;
 }

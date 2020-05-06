@@ -4,8 +4,15 @@
 <body id="page-top">
 <div class="container" style="min-height: 100vh">
     <div class="row">
-        <div class="col-md-12 col-lg-10 col-lg-offset-1">
-            {% include nav.html %}
+        <div class="col-md-12 col-lg-6 col-lg-offset-3">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a href="{{ site.baseurl }}/{{lang}}" class="navbar-brand">
+                        <h1>Brilhou os olhos</h1>
+                    </a>
+                </div>
+            </nav>
+            <p style="display: block">Pequenos detalhes que surpreendem!</p>
 
             {{ content }}
 

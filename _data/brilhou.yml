@@ -1,0 +1,27 @@
+- product:
+    name: Google Home
+    url: https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app
+  title: "Quando você tem algum app de vídeo ou música
+          instalado que o serviço suporta, ele sugere que estes serviços
+          sejam vinculados."
+  hashtags:
+    - ux
+    - casainteligente
+    - smarthome
+    - google
+  image_urls:
+    - /assets/images/brilhou/google-suggests-media-1.jpg
+    - /assets/images/brilhou/google-suggests-media-2.jpg
+
+- product:
+    name: Google Docs
+    url: https://docs.google.com
+  title: "Quando você renomeia um documento, ele usa a
+          primeira linha do documento para sugerir um título. O texto
+          fica selecionado então se quiser outro é só apertar delete."
+  hashtags:
+    - ux
+    - googledrive
+    - googledocs
+    - google
+  video_url: /assets/images/brilhou/docs-title.gifv.mp4
