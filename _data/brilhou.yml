@@ -25,3 +25,16 @@
     - googledocs
     - google
   video_url: /assets/images/brilhou/docs-title.gifv.mp4
+
+- product:
+    name: Nintendo Switch
+    url: https://www.nintendo.com/switch/
+  title: "Os controles são mostrados na tela de configuração exatamente
+          da mesma cor que eles são na vida real."
+  hashtags:
+    - ux
+    - nintendo
+    - nintendoswitch
+    - games
+  image_urls:
+    - /assets/images/brilhou/switch-controller-color.jpg
