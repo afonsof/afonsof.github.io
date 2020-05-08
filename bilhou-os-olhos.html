@@ -8,8 +8,9 @@ lang: pt
 {% assign posts = site.data.brilhou %}
 
 <div class="brilhou-posts">
+    {% assign reversed = posts | sort: "date" | reverse %}
 
-    {% for post in posts %}
+    {% for post in reversed %}
 
     {% if post.image_urls %}
         {% assign size = post.image_urls | size %}

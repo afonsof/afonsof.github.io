@@ -1,6 +1,7 @@
 - product:
     name: Google Home
     url: https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app
+  date: 2020-05-06
   title: "Quando você tem algum app de vídeo ou música
           instalado que o serviço suporta, ele sugere que estes serviços
           sejam vinculados."
@@ -16,6 +17,7 @@
 - product:
     name: Google Docs
     url: https://docs.google.com
+  date: 2020-05-06
   title: "Quando você renomeia um documento, ele usa a
           primeira linha do documento para sugerir um título. O texto
           fica selecionado então se quiser outro é só apertar delete."
@@ -29,6 +31,7 @@
 - product:
     name: Nintendo Switch
     url: https://www.nintendo.com/switch/
+  date: 2020-05-07
   title: "Os controles são mostrados na tela de configuração exatamente
           da mesma cor que eles são na vida real."
   hashtags:
@@ -38,3 +41,20 @@
     - games
   image_urls:
     - /assets/images/brilhou/switch-controller-color.jpg
+
+- product:
+    name: Google Lens
+    url: https://lens.google.com
+  date: 2020-05-08
+  title: "Ao selecionar um texto reconhecido pelo Google Lens no celular, ele oferece a opção
+         \"Copiar para o computador\" que elegantemente pega o texto selecionado e
+         copia para a área de transferência de um dos seus computadores e não é
+         necessário redigitar tudo de novo!"
+  hashtags:
+    - ux
+    - google
+    - googlelens
+    - ocr
+    - google
+  video_url:
+    - /assets/images/brilhou/lens-clipboard-pc.mp4
