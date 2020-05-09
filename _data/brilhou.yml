@@ -55,6 +55,23 @@
     - google
     - googlelens
     - ocr
-    - google
   video_url:
     - /assets/images/brilhou/lens-clipboard-pc.mp4
+    -
+- product:
+    name: App de busca do Google
+    url: https://google.com
+  date: 2020-05-09
+  title: "Ao buscar por uma parte do corpo humano ou pequenos organismos,
+          a ferramenta oferece visualização em 3D e realidade aumentada."
+  hashtags:
+    - ux
+    - google
+    - googlesearch
+    - ar
+    - 3d
+    - anatomia
+    - buscadogoogle
+  narrow: true
+  video_url:
+    - /assets/images/brilhou/google-anatomy-ar.mp4
