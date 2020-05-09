@@ -129,12 +129,13 @@ nav {
   .navbar-nav > .active > a {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(255,255,255,0.03);
+    background-color: rgba(255, 255, 255, 0.03);
   }
+
   .navbar-nav > .active > a:hover {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(255,255,255,0.03);
+    background-color: rgba(255, 255, 255, 0.03);
   }
 }
 
@@ -274,7 +275,7 @@ nav {
   .feed-article {
     padding: 0 !important;
 
-    &>div {
+    & > div {
       display: none;
     }
   }
@@ -412,7 +413,7 @@ body {
   }
 
   p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   h4 {
@@ -423,6 +424,16 @@ body {
   h3, h2 {
     margin-top: 40px;
     margin-bottom: 20px;
+  }
+
+  figure.image {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    @media(max-width: 768px) {
+      max-width: 100%;
+    }
   }
 }
 
@@ -595,9 +606,11 @@ b, strong {
 .brilhou-posts {
   margin-top: 25px;
   margin-bottom: 100px;
+
   .wide {
     width: 100%;
   }
+
   .narrow {
     width: 70%;
     @media(max-width: 480px) {
@@ -612,4 +625,28 @@ b, strong {
   margin-left: -10px;
   font-size: 60px;
   margin-top: -70px;
+}
+
+$code-green-color: rgba(80, 250, 123, 0.7);
+$code-blue-color: rgba(139, 233, 253, 0.7);
+
+.badge {
+  text-transform: lowercase;
+  background-color: transparent;
+  font-weight: 100;
+  border-radius: 3px;
+  font-size: 10px;
+  padding: 5px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.badge.badge-tech {
+  border: 1px solid $code-blue-color;
+  color: $code-blue-color;
+}
+
+.badge.badge-life {
+  border: 1px solid $code-green-color;
+  color: $code-green-color;
 }

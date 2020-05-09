@@ -4,9 +4,7 @@
     <section class="content">
         <header class="eyebrow">
             <time class="uni-timesince" datetime="{{ post.date }}">{{ post.date | date: "%d/%m/%y" }}</time>
-            {% if post.type %}
-                | {{ i18n[post.type][page.lang] }}
-            {% endif %}
+            <span class="badge badge-{{post.tag}}">{{i18n[post.tag][page.lang]}}</span>
         </header>
         <h3 class="title">{{ post.title }}</h3>
     </section>

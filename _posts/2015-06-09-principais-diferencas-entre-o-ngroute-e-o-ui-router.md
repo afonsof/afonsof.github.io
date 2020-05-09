@@ -5,8 +5,7 @@ date: 2015-06-09 00:39:46.000000000 -03:00
 type: article
 published: true
 status: publish
-categories:
-- blog
+tag: tech
 ---
 Este fim de semana estava criando um MVP com Ionic Framework e me deparei novamente com o `ui-router`. Das outras vezes
 que o vi não dei muita atenção pois o `ngRoute` estava me suprindo, porém quando vi que o `ui-router` é o padrão do

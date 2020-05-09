@@ -1,11 +1,15 @@
+{% assign videos = site.data.videos %}
+{% assign posts = site.posts | concat: videos %}
+{% assign sorted = posts | sort:"date" | reverse %}
+
 <section id="blog" class="internal-list">
-    {% for post in site.categories['blog'] %}
+    {% for post in sorted %}
         {% if post.type == 'youtube' %}
             {% assign image_url = 'https://i.ytimg.com/vi/' | append: post.youtube_id | append: '/maxresdefault.jpg' %}
             {% assign url = 'https://www.youtube.com/watch?v=' | append: post.youtube_id %}
             {% assign target = '_blank' %}
         {% else %}
-            {% assign image_url = null %}
+            {% assign image_url = post.image_url | prepend: site.baseurl %}
             {% assign url = post.url | prepend: site.baseurl %}
             {% assign target = '_self' %}
         {% endif %}

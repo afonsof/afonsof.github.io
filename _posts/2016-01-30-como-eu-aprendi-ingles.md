@@ -6,8 +6,7 @@ type: article
 published: true
 status: publish
 img: como-aprendi-ingles.png
-categories:
-- blog
+tag: life
 ---
 
 Neste post vou comentar e descrever alguns detalhes de como está sendo minha trajetória no aprendizado da língua inglesa.

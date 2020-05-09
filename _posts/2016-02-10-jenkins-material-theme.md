@@ -5,9 +5,7 @@ date: 2016-02-10 00:00:00.000000000 -03:00
 type: article
 published: true
 status: publish
-img: como-aprendi-ingles.png
-categories:
-- blog
+tag: tech
 ---
 
 Some months ago I started to use Jenkins with a real project for the first time. In all the previous projects I participated the team had always decided for using a proprietary solution like pmease QuickBuild or Jetbrains TeamCity.

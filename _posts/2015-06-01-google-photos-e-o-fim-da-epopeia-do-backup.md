@@ -4,9 +4,7 @@ title: Google Photos e o fim da epopéia do backup
 date: 2015-06-01 06:24:48 -03:00
 type: article
 published: true
-image: http://afonsof.com/wp-content/uploads/2015/06/google-photos.jpg
-categories:
-- blog
+tag: tech
 ---
 Desde que era criança gosto de organizar coisas. Lembro-me de ter um caderno não na época dos 8-bit em que registrava
 todos os jogos de vídeo game que jogava.
@@ -44,7 +42,7 @@ E já estava bom demais, mas tinha ainda mais. Eles disseram que magicamente cla
 Se eu buscasse por Nova Iorque ou Bolo de aniversário o algoritmo mágico processador de linguagem natural seria
 inteligente o suficiente para classificar as minhas fotos e filtrar conforme o solicitado. Incrível!
 
-![image]({{ site.baseurl }}/assets/images/posts/google-photos-cats.png)
+{% include figure.html url="/assets/images/posts/google-photos-cats.png" description="My cat, Robert Downey Jr." %}
 
 Para completar eventualmente ele montaria de forma automática álbuns de viagens e eventos, colagens, montagens de
 vídeos e outras coisas. Era a cereja do bolo!

@@ -3,8 +3,8 @@ resume:
   en: Resume
 
 blog:
-  pt: Blog
-  en: Blog
+  pt: Postagens
+  en: Posts
 
 projects:
   pt: Projetos
@@ -15,8 +15,8 @@ about:
   en: About me
 
 recentArticles:
-  pt: Artigos recentes
-  en: Recent articles
+  pt: Postagens recentes
+  en: Recent posts
 
 latestProjects:
   pt: Últimos projetos
@@ -33,3 +33,11 @@ youtube:
 article:
   pt: Artigo
   en: Article
+
+life:
+  pt: Vida
+  en: Life
+
+tech:
+  pt: Tecnologia
+  en: Technology

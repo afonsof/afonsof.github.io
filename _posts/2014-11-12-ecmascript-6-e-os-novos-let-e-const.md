@@ -5,8 +5,8 @@ date: 2014-11-12 18:02:35.000000000 -02:00
 type: article
 published: true
 status: publish
-categories:
-- blog
+tag: tech
+
 ---
 
 O ECMAScript 6 vem chegando e existem diversas novas modificações que tornarão a linguagem Javascript mais robusta
