@@ -6,74 +6,79 @@ lang: pt
 ---
 
 {% assign posts = site.data.brilhou %}
+{% assign reversed = posts | sort: "date" | reverse %}
 
 <div class="brilhou-posts">
-    {% assign reversed = posts | sort: "date" | reverse %}
 
     {% for post in reversed %}
 
-    {% if post.narrow %}
-    {% assign image_size_class = "narrow" %}
-    {% else %}
-    {% assign image_size_class = "wide" %}
-    {% endif %}
+    <article>
+        {% if post.narrow %}
+            {% assign image_size_class = "narrow" %}
+        {% else %}
+            {% assign image_size_class = "wide" %}
+        {% endif %}
 
-    {% if post.image_urls %}
-        {% assign size = post.image_urls | size %}
-        {% if size > 1 %}
-            <div
+        {% if post.image_urls %}
+            {% assign size = post.image_urls | size %}
+            {% if size > 1 %}
+                <div
                     id="carousel-{{ forloop.index0 }}"
                     class="carousel slide {{image_size_class}}"
                     data-ride="carousel"
             >
-            <div class="carousel-inner">
-                {% for image_url in post.image_urls %}
-                {% if forloop.index0 != 0 %}
-                <div class="item active">
-                    <img src="{{ image_url }}" style="width:100%;">
+                <div class="carousel-inner">
+                    {% for image_url in post.image_urls %}
+                    {% if forloop.index0 != 0 %}
+                    <div class="item active">
+                        <img src="{{ image_url }}" style="width:100%;">
+                    </div>
+                    {% else %}
+                    <div class="item">
+                        <img src="{{ image_url }}" style="width:100%;">
+                    </div>
+                    {% endif %}
+                    {% endfor %}
                 </div>
-                {% else %}
-                <div class="item">
-                    <img src="{{ image_url }}" style="width:100%;">
-                </div>
-                {% endif %}
-                {% endfor %}
+
+                <a class="left carousel-control" href="#carousel-{{ forloop.index0 }}" data-slide="prev">
+                    <span>˱</span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <a class="right carousel-control" href="#carousel-{{ forloop.index0 }}" data-slide="next">
+                    <span>˲</span>
+                    <span class="sr-only">Próximo</span>
+                </a>
             </div>
-
-            <a class="left carousel-control" href="#carousel-{{ forloop.index0 }}" data-slide="prev">
-                <span>˱</span>
-                <span class="sr-only">Anterior</span>
-            </a>
-
-            <a class="right carousel-control" href="#carousel-{{ forloop.index0 }}" data-slide="next">
-                <span>˲</span>
-                <span class="sr-only">Próximo</span>
-            </a>
-        </div>
-        {% else %}
-            <img src="{{ post.image_urls[0] }}" class="{{image_size_class}}" />
+            {% else %}
+                <img src="{{ post.image_urls[0] }}" class="{{image_size_class}}"/>
+            {% endif %}
         {% endif %}
-    {% endif %}
 
-    {% if post.video_url %}
-    <div style="text-align: center; background-color: rgba(255,255,255,0.05)">
-        <video autoplay muted loop width=100%" class="{{image_size_class}}">
-            Your browser does not support HTML5 video.
-            <source src="{{ post.video_url }}" type="video/mp4">
-        </video>
-    </div>
-    {% endif %}
+        {% if post.video_url %}
+            <div style="text-align: center; background-color: rgba(255,255,255,0.05)">
+                <video autoplay muted loop width=100%" class="{{image_size_class}}">
+                    Your browser does not support HTML5 video.
+                    <source src="{{ post.video_url }}" type="video/mp4">
+                </video>
+            </div>
+        {% endif %}
 
-    <p style="margin-bottom: 60px; margin-top: 20px">
-        <a href="{{ post.product.url }}" target="_blank">
-            {{post.product.name}}
-        </a>
-        — {{ post.title }}
-        {% for hashtag in post.hashtags %}
-        <a href="https://www.instagram.com/explore/tags/{{ hashtag }}" target="_blank">
-            #{{ hashtag }}
-        </a>
-        {% endfor %}
-    </p>
+        <p style="margin-top: 20px">
+            <a href="{{ post.product.url }}" target="_blank">
+                {{post.product.name}}
+            </a>
+            — {{ post.title }}
+            {% for hashtag in post.hashtags %}
+            <a href="https://www.instagram.com/explore/tags/{{ hashtag }}" target="_blank">
+                #{{ hashtag }}
+            </a>
+            {% endfor %}
+        </p>
+        <p style="margin-top: 10px; margin-bottom: 60px; font-size: 100%">
+            <time>{{ post.date | date: "%d/%m/%y" }}</time>
+        </p>
+    </article>
     {% endfor %}
 </div>
