@@ -1,9 +1,8 @@
 {% assign videos = site.data.videos %}
 {% assign posts = site.posts | concat: videos %}
-{% assign sorted = posts | sort:"date" | reverse %}
 
 <section id="blog" class="internal-list">
-    {% for post in sorted %}
+    {% for post in posts %}
         {% if post.type == 'youtube' %}
             {% assign image_url = 'https://i.ytimg.com/vi/' | append: post.youtube_id | append: '/maxresdefault.jpg' %}
             {% assign url = 'https://www.youtube.com/watch?v=' | append: post.youtube_id %}
