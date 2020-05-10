@@ -42,7 +42,10 @@ E já estava bom demais, mas tinha ainda mais. Eles disseram que magicamente cla
 Se eu buscasse por Nova Iorque ou Bolo de aniversário o algoritmo mágico processador de linguagem natural seria
 inteligente o suficiente para classificar as minhas fotos e filtrar conforme o solicitado. Incrível!
 
-{% include figure.html url="/assets/images/posts/google-photos-cats.png" description="My cat, Robert Downey Jr." %}
+{% include figure.html
+   url="/assets/images/posts/google-photos-cats.png"
+   description="Filtrando por gatos no Google Photos" 
+%}
 
 Para completar eventualmente ele montaria de forma automática álbuns de viagens e eventos, colagens, montagens de
 vídeos e outras coisas. Era a cereja do bolo!
