@@ -2,12 +2,12 @@
 
 {% assign videos = site.data.videos %}
 {% assign posts = site.posts | concat: videos %}
-<!-- assign sorted = posts | sort:"date" | reverse -->
+{% assign sorted = posts | sort:"date" %}
 
 <section id="recent-articles">
     <h2 class="section-heading">{{ i18n.recentArticles[page.lang] }}</h2>
     <ul class="article-list">
-        {% for post in posts %}
+        {% for post in sorted %}
             {% if forloop.index0 < 6 %}
                 {% if post.type == 'youtube' %}
                     {% assign url = 'https://www.youtube.com/watch?v=' | append: post.youtube_id %}
