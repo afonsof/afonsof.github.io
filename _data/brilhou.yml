@@ -57,7 +57,7 @@
     - ocr
   video_url:
     - /assets/images/brilhou/lens-clipboard-pc.mp4
-    -
+
 - product:
     name: App de busca do Google
     url: https://google.com
@@ -75,4 +75,18 @@
   narrow: true
   video_url:
     - /assets/images/brilhou/google-anatomy-ar.mp4
+
+- product:
+    name: Mercado Livre
+    url: https://www.mercadolivre.com.br
+  date: 2020-05-12
+  title: "Para desincentivar o aperto de mãos durante a epidemia do COVID-19, o Mercado
+          Livre alterou para um toque de cotovelos."
+  hashtags:
+    - ux
+    - mercadolivre
+    - logotipo
+    - covid19
+  image_urls:
+    - /assets/images/brilhou/mercado-livre.png
 
