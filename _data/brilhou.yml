@@ -90,3 +90,18 @@
   image_urls:
     - /assets/images/brilhou/mercado-livre.png
 
+- product:
+    name: Google Chrome
+    url: https://www.google.com/chrome/
+  date: 2020-05-12
+  title: "Ao fazer consultas relacionadas a clima na barra de busca do Chrome ele mostra
+          o resultado mesmo antes de pressionar o ENTER"
+  hashtags:
+    - ux
+    - google
+    - weather
+    - googlechrome
+    - chrome
+  image_urls:
+    - /assets/images/brilhou/chrome-weather.png
+
