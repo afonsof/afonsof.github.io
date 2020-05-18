@@ -105,3 +105,18 @@
   image_urls:
     - /assets/images/brilhou/chrome-weather.png
 
+- product:
+    name: Google Chrome
+    url: https://www.google.com/chrome/
+  date: 2020-05-17
+  title: "Ao clicar com o botão direito nas abas é possível agrupa-las separando por título
+          e cor."
+  hashtags:
+    - ux
+    - google
+    - tabs
+    - googlechrome
+    - chrome
+  image_urls:
+    - /assets/images/brilhou/chrome-tab-group.png
+
