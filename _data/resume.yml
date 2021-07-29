@@ -9,12 +9,12 @@ title:
   pt: Desenvolvedor Full-stack e Agile Tech Lead
 
 tagline:
-  en: "Hi, I'm Afonso, a curious 36-year-old man who lives in São Paulo
+  en: "Hi, I'm Afonso, a curious 37-year-old man who lives in São Paulo
        and works as Tech Lead and Full-Stack Dev at the great startup
-       <a href=\"http://gupy.io\">Gupy</a>!"
-  pt: "Oi, eu sou Afonso, um cara de 36 anos de idade que vive em São Paulo
+       <a href=\"https://hopara.io\">Hopara</a>!"
+  pt: "Oi, eu sou Afonso, um cara de 37 anos de idade que vive em São Paulo
        e trabalha como Tech Lead e Dev Full-Stack na incrível startup
-       <a href=\"http://gupy.io\">Gupy</a>!"
+       <a href=\"https://hopara.io\">Hopara</a>!"
 
 intro:
   en: "I love coding and I've been doing this for fun since I was a teenager.
@@ -97,6 +97,7 @@ sections:
     items:
       - organization: Gupy
         start: 2017
+        end: 2021
         occupations:
           - title:
               en: Software Engineer and Tech Lead - São Paulo - Brazil
