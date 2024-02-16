@@ -95,6 +95,28 @@ sections:
     type: occupationList
     layout: work
     items:
+      - organization: Hopara
+        start: 2021
+        end: current
+        occupations:
+          - title:
+              en: Principal Engineer - São Paulo - Brazil
+              pt: Engenheiro Principal - São Paulo - Brasil
+            tasks:
+              - title:
+                  en: Digital Twin Software Platform
+                  pt: Plataforma de Software de Gêmeos Digitais
+                tags:
+                  - Javascript
+                  - Typescript
+                  - NodeJs
+                  - React + Redux
+                  - Postgresql
+                  - WebGL
+                  - AWS
+
+
+
       - organization: Gupy
         start: 2017
         end: 2021
