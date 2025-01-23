@@ -40,10 +40,10 @@ sections:
           en: Software Craftsman # since 2001 when I started to study programming
           pt: Criador de Software
         value:
-          en: I've been creating software for 19 years. Started using <b>PHP</b>,
+          en: I've been creating software for more than 20 years. Started using <b>PHP</b>,
               passing through <b>.NET</b> and <b>Python</b>. Nowadays I enjoy
               <b>Typescript</b> and <b>Node JS</b>.
-          pt: Tenho criado software há 19 anos. Comecei usando <b>PHP</b>,
+          pt: Tenho criado software há mais de 20 anos. Comecei usando <b>PHP</b>,
               passei por <b>.NET</b> e <b>Python</b>. Atualmente me divirto com
               <b>Typescript</b> and <b>Node JS</b>.
         icon: full-stack.svg
