@@ -9,10 +9,10 @@ title:
   pt: Engenheiro Full-stack Principal
 
 tagline:
-  en: "Hi, I'm Afonso, a curious full-stack 39-year-old developer who lives in São Paulo
+  en: "Hi, I'm Afonso, a curious full-stack 40-year-old developer who lives in São Paulo
        and works at the great startup
        <a href=\"https://hopara.io\">Hopara</a>!"
-  pt: "Oi, eu sou Afonso, um dev full-stack de 39 anos de idade que vive em São Paulo
+  pt: "Oi, eu sou Afonso, um dev full-stack de 40 anos de idade que vive em São Paulo
        e trabalha na incrível startup
        <a href=\"https://hopara.io\">Hopara</a>!"
 
@@ -42,10 +42,10 @@ sections:
         value:
           en: I've been creating software for 19 years. Started using <b>PHP</b>,
               passing through <b>.NET</b> and <b>Python</b>. Nowadays I enjoy
-              <b>Javascript</b> and <b>Node JS</b>.
+              <b>Typescript</b> and <b>Node JS</b>.
           pt: Tenho criado software há 19 anos. Comecei usando <b>PHP</b>,
               passei por <b>.NET</b> e <b>Python</b>. Atualmente me divirto com
-              <b>Javascript</b> and <b>Node JS</b>.
+              <b>Typescript</b> and <b>Node JS</b>.
         icon: full-stack.svg
 
       - key:
@@ -76,9 +76,9 @@ sections:
     type: array
     layout: list3Columns
     items:
-      - NodeJs / Javascript / ES20??
+      - NodeJs / Javascript / Typescript
       - HTML5 / CSS3
-      - React / Redux / Saga /webpack
+      - React / Redux / Saga / webpack
       - Postgres / MongoDb
       - Elastic / Redis
       - Agile / Scrum / Kanban
@@ -86,8 +86,8 @@ sections:
       - DDD / Clean Architecture
       - Design Patterns
       - TDD / Code Coverage
-      - GIT / AWS / docker
-      - Jenkins / npm / CI tools
+      - GIT / AWS / Docker
+      - CI tools
 
   - title:
       en: Work experiences
