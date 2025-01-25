@@ -100,27 +100,40 @@ sections:
         end: current
         occupations:
           - title:
-              en: Principal Engineer - São Paulo - Brazil
-              pt: Engenheiro Principal - São Paulo - Brasil
+              en: Principal Engineer - Cambridge - MA - USA
+              pt: Engenheiro Principal - Cambridge - MA - USA
             tasks:
               - title:
-                  en: Digital Twin Software Platform
-                  pt: Plataforma de Software de Gêmeos Digitais
+                  en: Industry IOT Software Platform
+                  pt: Plataforma de software para IOT industrial
                 tags:
-                  - Javascript
+                  - React
+                  - WebGL
                   - Typescript
                   - NodeJs
-                  - React + Redux
+                  - Python
+                  - Indoor positioning System
                   - Postgresql
-                  - WebGL
                   - AWS
-
-
-
       - organization: Gupy
         start: 2017
         end: 2021
         occupations:
+          - title:
+              en: Head of Engineering - São Paulo - Brazil
+              pt: Líder de Engenharia - São Paulo - Brazil
+            tasks:
+              - title:
+                  en: HR Software
+                  pt: Software para RH
+                tags:
+                  - Javascript
+                  - NodeJs
+                  - React + Redux
+                  - Postgresql
+                  - ElasticSearch
+                  - SQS
+                  - AWS
           - title:
               en: Software Engineer and Tech Lead - São Paulo - Brazil
               pt: Engenheiro de Software e Líder Técnico - São Paulo - Brazil
