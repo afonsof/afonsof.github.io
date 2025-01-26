@@ -1,4 +1,4 @@
-contactInfo:  "
+contactInfo: "
 <a href=\"tel:+5524998449119\">+55 24 99844 9119</a><br>
 <a href=\"mailto:afonso.franca@gmail.com\">afonso.franca@gmail.com</a><br>
 <a href=\"http://afonsof.com\">afonsof.com</a> • <a href=\"https://github.com/afonsof\">github.com/afonsof</a><br>
@@ -9,18 +9,18 @@ title:
   pt: Engenheiro Full-stack Principal
 
 tagline:
-  en: "Hi, I'm Afonso, a curious full-stack 40-year-old developer who lives in São Paulo
-       and works at the great startup
-       <a href=\"https://hopara.io\">Hopara</a>!"
-  pt: "Oi, eu sou Afonso, um dev full-stack de 40 anos de idade que vive em São Paulo
-       e trabalha na incrível startup
-       <a href=\"https://hopara.io\">Hopara</a>!"
+  en: "Hi, I'm Afonso, a seasoned Full-Stack Engineer with 20+ years of experience.
+       Based in São Paulo, I currently work at <a href=\"https://hopara.io\">Hopara</a>, a cutting-edge digital twin startup,
+       building innovative solutions for the industry."
+  pt: "Olá, eu sou Afonso, um Engenheiro Full-Stack com mais de 20 anos de experiência.
+       Moro em São Paulo e trabalho na <a href=\"https://hopara.io\">Hopara</a>, uma startup de digital twin,
+       que constrói soluções inovadoras para a indústria."
 
 intro:
   en: "I love coding and I've been doing this for fun since I was a teenager.
        Already ventured into startups in USA and Canada but decided to come back to Brazil.
-       Also an MBA in Project Management from <a href=\"http://fgv.br\">FGV</a> and
-       graduated in Computer Science at <a href=\"http://ubm.br/\">UBM</a>.
+       Also an MBA in Project Management from <a href=\"https://fgv.br\">FGV</a> and
+       graduated in Computer Science at <a href=\"https://ubm.br/\">UBM</a>.
        Here you can know more about me and my job. Enjoy!"
   pt: "Eu amo codar e tenho feito isso desde que eu era adolescente.
        Já me aventurei em startups nos EUA e Canadá mas decidi que o Brasil é o meu lugar.
@@ -37,38 +37,34 @@ sections:
     layout: titled3Columns
     items:
       - key:
-          en: Software Craftsman # since 2001 when I started to study programming
+          en: Software Craftsman
           pt: Criador de Software
         value:
-          en: I've been creating software for more than 20 years. Started using <b>PHP</b>,
-              passing through <b>.NET</b> and <b>Python</b>. Nowadays I enjoy
-              <b>Typescript</b> and <b>Node JS</b>.
-          pt: Tenho criado software há mais de 20 anos. Comecei usando <b>PHP</b>,
-              passei por <b>.NET</b> e <b>Python</b>. Atualmente me divirto com
-              <b>Typescript</b> and <b>Node JS</b>.
+          en: Over 20 years creating real-world software focused on scalability, maintainability,
+            and quality, emphasizing clean code, testing, and refactoring.
+          pt: Mais de 20 anos criando software do mundo real focado em
+              escalabilidade, manutenibilidade e qualidade, enfatizando código limpo, testes e refatoração.
         icon: full-stack.svg
 
       - key:
-          en: Agile Enthusiast
-          pt: Entusiasta do Agile
+          en: Startup Enthusiast
+          pt: Entusiasta de Startups
         value:
-          en: I've already worn the hat of <b>Scrum Master</b> and <b>Product Owner</b>.
-              Already used Scrum and Kanban.
-              Mix and match all of them in favor of <b>Agile</b>"
-          pt: Já trabalhei como <b>Scrum Master</b> en <b>Product Owner</b>.
-              Já usei Scrum e Kanban.
-              Misturo um pouco de tudo em prol da <b>Agilidade</b>.
-        icon: agile.svg
+          en: Passionate about startups, tackling challenges flexibly, and learning 
+              new technologies to create impactful solutions.
+          pt: Apaixonado por startups, enfrentando desafios de forma flexível e 
+              aprendendo novas tecnologias para criar soluções impactantes.
+        icon: engineering.svg
 
       - key:
-          en: Software Engineer
-          pt: Engenheiro de Software
+          en: Agile Advocate
+          pt: Defensor do Agile
         value:
-          en: I know how it is important to use <b>TDD</b>, <b>Refactoring</b> and <b>Code Review</b>
-              in order to create a profitable software.
-          pt: Sei o quão importante usar <b>TDD</b>, <b>refatorar</b> e fazer <b>Code Review</b>
-              para criar software que funciona.
-        icon: engineering.svg
+          en: Experienced as Scrum Master and Product Owner, combining many practices to
+              drive true agility, efficiency, and collaboration.
+          pt: Experiência como Scrum Master e Product Owner, combinando várias práticas
+              para promover verdadeira agilidade, eficiência e colaboração.
+        icon: agile.svg
 
   - title:
       en: Highlights
@@ -76,9 +72,9 @@ sections:
     type: array
     layout: list3Columns
     items:
-      - NodeJs / Javascript / Typescript
+      - Node.js / TypeScript
       - HTML5 / CSS3
-      - React / Redux / Saga / webpack
+      - React / Redux / Saga / Webpack
       - Postgres / MongoDb
       - Elastic / Redis
       - Agile / Scrum / Kanban
@@ -104,13 +100,13 @@ sections:
               pt: Engenheiro Principal - Cambridge - MA - USA
             tasks:
               - title:
-                  en: Industry IOT Software Platform
-                  pt: Plataforma de software para IOT industrial
+                  en: "Contribute to the development of an innovative <b>Digital Twin platform</b>, helping industrial clients optimize maintenance and deployment planning processes, achieving a <b>60% reduction</b> in planning time and improving operational decision-making through real-time data visualization."
+                  pt: "Contribuo para o desenvolvimento de uma inovadora <b>plataforma de gêmeos digitais</b>, ajudando clientes industriais a otimizar os processos de planejamento de manutenção e implantação, alcançando uma <b>redução de 60%</b> no tempo de planejamento e melhorando a tomada de decisão operacional por meio da visualização de dados em tempo real."
                 tags:
                   - React
                   - WebGL
-                  - Typescript
-                  - NodeJs
+                  - TypeScript
+                  - Node.js
                   - Python
                   - Indoor positioning System
                   - Postgresql
@@ -120,34 +116,30 @@ sections:
         end: 2021
         occupations:
           - title:
-              en: Head of Engineering - São Paulo - Brazil
-              pt: Líder de Engenharia - São Paulo - Brazil
+              en: Head of Engineering - São Paulo - SP - Brazil
+              pt: Líder de Engenharia - São Paulo - SP - Brazil
             tasks:
               - title:
-                  en: HR Software
-                  pt: Software para RH
+                  en: "Digital Onboarding Software: Identified key market needs and led the team to secure the <b>first 20 clients</b>, achieving a <b>70% reduction</b> in onboarding time and improving operational efficiency."
+                  pt: "Software de Admissão Digital: Identifiquei necessidades-chave do mercado e liderei a equipe para conquistar os <b>primeiros 20 clientes</b>, alcançando uma <b>redução de 70%</b> no tempo de admissão e melhorando a eficiência operacional."
                 tags:
-                  - Javascript
-                  - NodeJs
-                  - React + Redux
-                  - Postgresql
-                  - ElasticSearch
-                  - SQS
-                  - AWS
+                  - Define architectural standards
+                  - Ensure good practices
+                  - Motivate, guide, and develop 6 teams
+                  - Conduct performance reviews
           - title:
-              en: Software Engineer and Tech Lead - São Paulo - Brazil
-              pt: Engenheiro de Software e Líder Técnico - São Paulo - Brazil
+              en: Tech Lead - São Paulo - SP - Brazil
+              pt: Líder Técnico - São Paulo - SP - Brazil
             tasks:
               - title:
-                  en: HR Software
-                  pt: Software para RH
+                  en: "Applicant Tracking System: Led a team of <b>8 engineers</b> to enhance job creation and application management, ensuring the ideal candidate for each position <b>appeared on the first page</b>, improving hiring accuracy and efficiency."
+                  pt: "Sistema de Gestão de Candidatos: Liderei uma equipe de <b>8 engenheiros</b> para aprimorar a criação de vagas e o gerenciamento de candidaturas, garantindo que o candidato ideal para cada posição <b>aparecesse na primeira página</b>, melhorando a precisão e eficiência da contratação."
                 tags:
-                  - Javascript
-                  - NodeJs
-                  - React + Redux
+                  - TypeScript
+                  - Node.js
+                  - React
                   - Postgresql
                   - ElasticSearch
-                  - SQS
                   - AWS
 
       - organization: Veriz Tecnologia
@@ -155,16 +147,15 @@ sections:
         end: 2017
         occupations:
           - title:
-              en: Software Engineer - Brasilia - Brazil (remote job)
-              pt: Engenheiro de Software - Brasilia - Brazil (remoto)
+              en: Software Engineer - Brasilia - DF - Brazil
+              pt: Engenheiro de Software - Brasília - DF - Brazil
             tasks:
               - title:
-                  en: Email compliance tool
-                  pt: Ferramenta para compliance de Email
+                  en: E-mail Compliance Software
+                  pt: Software de Compliance de e-mails
                 tags:
-                  - Javascript
+                  - TypeScript
                   - AngularJs
-                  - Sass
                   - MongoDb
                   - Redis
                   - ElasticSearch
@@ -177,12 +168,12 @@ sections:
         end: 2016
         occupations:
           - title:
-              en: Software Engineer - Toronto - ON
-              pt: Engenheiro de Software - Toronto - ON
+              en: Software Engineer - Toronto - ON - Canada
+              pt: Engenheiro de Software - Toronto - ON - Canadá
             tasks:
               - title:
-                  en: Internal CMS
-                  pt: CMS Interno
+                  en: CMS Software
+                  pt: Software de CMS
                 tags:
                   - AngularJs
                   - Python
@@ -193,14 +184,13 @@ sections:
         end: 2016
         occupations:
           - title:
-              en: Software Engineer - San Francisco - CA (remote job)
-              pt: Engenheiro de Software - San Francisco - CA (remoto)
+              en: Software Engineer - San Francisco - CA -  USA
+              pt: Engenheiro de Software - San Francisco - CA - USA
             tasks:
               - title:
                   en: Retail stores software
                   pt: Software para lojas de departamento
                 tags:
-                  - Javascript
                   - AngularJs
                   - Redis
                   - MySQL
@@ -211,18 +201,16 @@ sections:
       - organization: Diebold Inc.
         start: 2006
         end: 2015
-        location: São Paulo -  Brazil
         occupations:
           - title:
-              en: Tech Lead (2009-2015)
-              pt: Líder Técnico (2009-2015)
+              en: Tech Lead - São Paulo - SP - Brazil
+              pt: Líder Técnico - São Paulo - SP - Brazil
             tasks:
               - title:
                   en: Bank Fraud prevention software
                   pt: Software de prevenção a fraudes bancárias
                 tags:
                   - Agile
-                  - Javascript
                   - .NET
                   - SQL Server
                   - jQuery
@@ -241,15 +229,14 @@ sections:
                   - Django
 
           - title:
-              en: Software Engineer (2006-2009)
-              pt: Engenheiro de Software (2006-2009)
+              en: Software Engineer
+              pt: Engenheiro de Software
             tasks:
               - title:
                   en: Company intranet
                   pt: Intranet da empresa
                 tags:
                   - .NET
-                  - Javascript
                   - SQL Server
                   - jQuery
 
@@ -259,8 +246,8 @@ sections:
                 tags: Python
 
               - title:
-                  en: Javascript based Machine Identificator
-                  pt: Identificador de máquina baseado em Javascript
+                  en: Front-end based Machine Identification
+                  pt: Identificação de máquinas baseada em front-end
                 tags: Javascript
 
               - title:
@@ -270,15 +257,17 @@ sections:
                   - Bayesian network
                   - Python
 
-      - organization: Flextronics International
+      - organization: Flextronics International, LTD.
         start: 2005
         end: 2006
         occupations:
-          - title: IT Trainee
+          - title:
+              en: Internship in IT - São Paulo - SP - Brazil
+              pt: Estágio em TI - São Paulo - SP - Brazil
             tasks:
               - title:
                   en: Maintenance of internal software
-                  pt: Manutenção de software intero
+                  pt: Manutenção de software interno
                 tags:
                   - Access
                   - C#
@@ -310,11 +299,23 @@ sections:
     layout: volunteer
     items:
       - title:
+          en: Creator and Presenter of an Interactive Juice Machine to Inspire Teens
+          pt: Criador de uma máquina de suco interativa para inspirar adolescentes
+        content:
+          en: For public school presentations, aiming to inspire teenagers to explore careers in technology.
+            The project integrates <b>IoT</b>, <b>AI</b>, <b>3D printing</b>, and <b>software development</b>
+            to showcase real-world tech solutions in an engaging way
+          pt: Para apresentações em escolas públicas,
+            com o objetivo de inspirar adolescentes a explorar carreiras em tecnologia.
+            O projeto integra <b>IoT</b>, <b>IA</b>, <b>impressão 3D</b> e <b>desenvolvimento de software</b>
+            para mostrar soluções tecnológicas do mundo real de forma envolvente
+
+      - title:
           en: Speaker in congresses em 2017
           pt: Palestrante em congressos em 2017
         organization:
-          en: Automating a house spending less using Google Assistant and NodeJS
-          pt: Automatizando uma casa gastando pouco usando Google Assistant e NodeJS
+          en: Automating a house spending less using Google Assistant and Node.js
+          pt: Automatizando uma casa gastando pouco usando Google Assistant e Node.js
         content:
           en: "Places: GDG Sul Fluminense Meetup, GDG Dev Fest Centro Sul and GDG Dev Fest Campinas"
           pt: "Locais: Meetup GDG Sul Fluminense, GDG Dev Fest Centro Sul e GDG Dev Fest Campinas"
@@ -376,8 +377,8 @@ sections:
     layout: volunteer
     items:
       - title:
-          en: (3rd Place) UBM Hackathon 2017
-          pt: (3º Lugar) Hackathon UBM 2017
+          en: UBM Hackathon 2017
+          pt: Hackathon UBM 2017
         organization: UBM – Centro universitário de Barra Mansa
         content:
           en: "The team created a Smart City Bot capable of providing tips and information about bus
