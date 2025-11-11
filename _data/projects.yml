@@ -5,7 +5,7 @@
     en: Logo and website
     pt: Logo e site
   date: 2008-01-01
-  # ext_url: http://jubasulf.com.br
+  # ext_url: https://jubasulf.com.br
   img: jubasulf.jpg
 
 - title:
@@ -15,7 +15,7 @@
     en: Created user interface in Windows MFC
     pt: Criei a interface do usuário em Windows MFC
   date: 2008-06-01
-  # ext_url: http://www.gastecnologia.com/
+  # ext_url: https://www.gastecnologia.com/
   img: glock.jpg
 
 - title:
@@ -55,7 +55,7 @@
     en: Co-organized event in Rio for 200 devs
     pt: Co-organizei evento para 200 devs em Volta Redonda
   date: 2015-05-26
-  ext_url: http://vr.devsummit.com.br
+  ext_url: https://vr.devsummit.com.br
   img: webdevsummit.jpg
 
 - title:
@@ -75,7 +75,7 @@
     pt: Applicativo web e processador do backend
     en: Web App and Backend event processor
   date: 2013-12-01
-  # ext_url: http://www.gastecnologia.com/
+  # ext_url: https://www.gastecnologia.com/
   img: gbwcd.jpg
 
 

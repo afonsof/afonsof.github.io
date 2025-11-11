@@ -64,5 +64,5 @@ Se perceber que o cenário pode vir a ficar mais complexo, não pense duas vezes
 
 [https://docs.angularjs.org/api/ngRoute](https://docs.angularjs.org/api/ngRoute)  
 [https://github.com/angular-ui/ui-router](https://github.com/angular-ui/ui-router)  
-[http://www.amasik.com/angularjs-ngroute-vs-ui-router/](http://www.amasik.com/angularjs-ngroute-vs-ui-router/)  
-[http://stackoverflow.com/questions/21023763/difference-between-angular-route-and-angular-ui-router](http://stackoverflow.com/questions/21023763/difference-between-angular-route-and-angular-ui-router)
+[https://www.amasik.com/angularjs-ngroute-vs-ui-router/](https://www.amasik.com/angularjs-ngroute-vs-ui-router/)  
+[https://stackoverflow.com/questions/21023763/difference-between-angular-route-and-angular-ui-router](https://stackoverflow.com/questions/21023763/difference-between-angular-route-and-angular-ui-router)

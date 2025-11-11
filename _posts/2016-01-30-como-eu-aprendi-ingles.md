@@ -59,10 +59,10 @@ Agora o sonho agora é real. No próximo dia 7 de maio eu e minha esposa vamos n
 Não desista, aprender inglês não é fácil. Alguém já me falou que aprender idiomas é como fazer musculação e não um dom. Então vá em frente, se exercite todos os dias e se prepare para o mundo!
 
 
-[chrono-trigger]: http://www.square-enix.co.jp/smart/chronotrigger/en/
+[chrono-trigger]: https://www.square-enix.co.jp/smart/chronotrigger/en/
 [chrome-dev-summit]: https://developer.chrome.com/devsummit
-[duolingo]: http://duolingo.com
-[memrise]: http://www.memrise.com/
-[embassy]: http://www.embassyenglish.com/
-[brasas]: http://brasas.com/
-[dev-na-estrada]: http://devnaestrada.com.br/2016/01/08/devnaestrada-ingles-pra-que.html
+[duolingo]: https://duolingo.com
+[memrise]: https://www.memrise.com/
+[embassy]: https://www.embassyenglish.com/
+[brasas]: https://brasas.com/
+[dev-na-estrada]: https://devnaestrada.com.br/2016/01/08/devnaestrada-ingles-pra-que.html

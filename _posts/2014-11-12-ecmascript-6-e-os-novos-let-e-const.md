@@ -98,4 +98,4 @@ dizer que não funciona em alguns outros browsers. No Chrome por exemplo ainda f
 para redefinição de uma constante e o escopo por bloco, mas já é possível fazer alguns testes.
 
 Para maiores informações de como está a compatibilidade dos browsers para estas novas funcionalidades visite
-[http://kangax.github.io/compat-table/es6](http://kangax.github.io/compat-table/es6)
+[https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
