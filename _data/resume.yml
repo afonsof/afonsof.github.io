@@ -100,8 +100,8 @@ sections:
               pt: Fundador e Desenvolvedor de Jogos - Remoto - Brasil
             tasks:
               - title:
-                  en: "Founded <b>Emocre</b>, a solo indie game studio focused on <b>Mega Drive development</b>, applying 20+ years of software engineering experience to game development. Currently building a <b>platform game with turn-based combat</b> — already recognized with a <b>Best Indie Game award</b> at a game fair. Responsible for the full development cycle: programming, pixel art, level design, and marketing."
-                  pt: "Fundei a <b>Emocre</b>, um estúdio indie solo focado em <b>desenvolvimento para Mega Drive</b>, aplicando mais de 20 anos de experiência em engenharia de software ao desenvolvimento de jogos. Atualmente desenvolvendo um <b>jogo de plataforma com batalha de turnos</b> — já premiado como <b>Melhor Jogo Indie</b> em feira do setor. Responsável por todo o ciclo de desenvolvimento: programação, pixel art, level design e marketing."
+                  en: "Founded <b>Emocre</b>, an indie game studio whose first title is a <b>platform game with creature capture and turn-based combat</b> — already recognized with a <b>Best Indie Game award</b> at a game fair. Responsible for the full development cycle: programming, pixel art, level design, and marketing."
+                  pt: "Fundei a <b>Emocre</b>, um estúdio de games indie e a primeira jornada tem sido um <b>jogo de plataforma com captura de criaturas e batalha de turnos</b>. Já premiado como <b>Melhor Jogo Indie</b> em feira do setor. Responsável por todo o ciclo de desenvolvimento: programação, pixel art, level design e marketing."
                 tags:
                   - Game Development
                   - Mega Drive
