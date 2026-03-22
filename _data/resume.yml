@@ -91,6 +91,24 @@ sections:
     type: occupationList
     layout: work
     items:
+      - organization: Emocre
+        start: 2025
+        end: current
+        occupations:
+          - title:
+              en: Founder and Game Developer - Remote - Brasil
+              pt: Fundador e Desenvolvedor de Jogos - Remoto - Brasil
+            tasks:
+              - title:
+                  en: "Founded and lead an <b>indie game studio</b>, designing and developing original games from concept to release, combining creative direction with hands-on engineering to deliver engaging player experiences."
+                  pt: "Fundei e lidero um <b>estúdio indie de jogos</b>, criando e desenvolvendo jogos originais do conceito ao lançamento, combinando direção criativa com engenharia para entregar experiências envolventes aos jogadores."
+                tags:
+                  - Game Development
+                  - Unity
+                  - C#
+                  - TypeScript
+                  - Node.js
+
       - organization: Hopara
         start: 2021
         end: current
