@@ -49,8 +49,8 @@
   img: evolvesharp.png
 
 - title:
-    pt: VR Dev Summit 2015
-    en: VR Dev Summit 2015
+    pt: VR Dev Summit
+    en: VR Dev Summit
   subtitle:
     en: Co-organized event in Rio for 200 devs
     pt: Co-organizei evento para 200 devs em Volta Redonda
@@ -78,4 +78,33 @@
   # ext_url: https://www.gastecnologia.com/
   img: gbwcd.jpg
 
+- title:
+    pt: Emocre - Criaturas Emocionais
+    en: Emocre - Emotional Creatures
+  subtitle:
+    pt: Uma jornada por emoções na forma de criaturas colecionáveis
+    en: A journey through emotions in the form of collectible creatures
+  date: 2025-03-01
+  ext_url: https://emocre.com
+  img: emocre.png
 
+- title:
+    pt: Hopara Isometrify
+    en: Hopara Isometrify
+  subtitle:
+    pt: Plataforma de IA generativa que converte fotos em modelos 3D e isométricos com editor no-code.
+    en: GenAI platform that converts photos into 3D and isometric models with a no-code editor.
+  date: 2024-06-01
+  ext_url: https://emocre.com
+  img: isometrify.gif
+
+
+- title:
+    pt: Hopara RFID Positioning
+    en: Hopara RFID Positioning
+  subtitle:
+    pt: Plataforma de IA generativa que converte fotos em modelos 3D e isométricos com editor no-code.
+    en: GenAI platform that converts photos into 3D and isometric models with a no-code editor.
+  date: 2025-01-01
+  ext_url: https://emocre.com
+  img: scan.gif

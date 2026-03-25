@@ -9,16 +9,16 @@
         {{ resume.intro[page.lang] }}
     </p>
 
-    <div class="row skills">
-        {% for section in resume.sections %}
-        {% if section.title.en == "Main skills" %}
-        {% for item in section.items %}
-        <div class="col-md-4">
-            <h4 class="skill-title">{{ item.key[page.lang]}}</h4>
-            <p class="skill-description">{{ item.value[page.lang] }}</p>
-        </div>
-        {% endfor %}
-        {% endif %}
-        {% endfor %}
-    </div>
+<!--    <div class="row skills">-->
+<!--        {% for section in resume.sections %}-->
+<!--        {% if section.title.en == "Main skills" %}-->
+<!--        {% for item in section.items %}-->
+<!--        <div class="col-md-4">-->
+<!--            <h4 class="skill-title">{{ item.key[page.lang]}}</h4>-->
+<!--            <p class="skill-description">{{ item.value[page.lang] }}</p>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--        {% endif %}-->
+<!--        {% endfor %}-->
+<!--    </div>-->
 </section>

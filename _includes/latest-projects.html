@@ -16,5 +16,17 @@
     {% endfor %}
     </div>
 
+    <div class="row">
+    {% for project in projects sort:"date" | reverse | offset: 4 | limit: 2 %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+    </div>
+
+    <div class="row">
+    {% for project in projects sort:"date" | reverse | offset: 6 | limit: 2 %}
+        {% include project-card.html project=project %}
+    {% endfor %}
+    </div>
+
     <a href="{{ site.baseurl }}/{{ page.lang }}/projects" class="show-all">{{ i18n.showAll[page.lang] }}...</a>
 </section>
