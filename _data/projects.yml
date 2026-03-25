@@ -95,7 +95,7 @@
     pt: Plataforma de IA generativa que converte fotos em modelos 3D e isométricos com editor no-code.
     en: GenAI platform that converts photos into 3D and isometric models with a no-code editor.
   date: 2024-06-01
-  ext_url: https://emocre.com
+  ext_url: https://hopara.io
   img: isometrify.gif
 
 
@@ -106,5 +106,5 @@
     pt: Algoritmo de posicionamento indoor usando RFID e Wi-Fi para rastreamento de ativos.
     en: Indoor positioning algorithm using RFID and Wi-Fi for asset tracking.
   date: 2025-01-01
-  ext_url: https://emocre.com
+  ext_url: https://hopara.io
   img: scan.gif
