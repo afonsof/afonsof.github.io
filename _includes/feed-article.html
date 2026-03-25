@@ -1,6 +1,6 @@
 {% assign i18n = site.data.translation %}
 
-<a href="{{ url }}" target="{{ target }}" class="feed-article">
+<a href="{{ url }}" target="{{ target }}" class="feed-article" data-date="{{ post.date | date: '%Y-%m-%d' }}">
     <section class="content">
         <header class="eyebrow">
             <time class="uni-timesince" datetime="{{ post.date }}">{{ post.date | date: "%d/%m/%y" }}</time>

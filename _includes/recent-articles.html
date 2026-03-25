@@ -17,7 +17,7 @@
                     {% assign target = '_self' %}
                 {% endif %}
 
-                <li class="article-item">
+                <li class="article-item" data-date="{{ post.date | date: '%Y-%m-%d' }}">
                     <a href="{{ url }}" rel="bookmark" target="{{ target }}">
                         <div>
                             {{ post.title }}
